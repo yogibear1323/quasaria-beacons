@@ -1,0 +1,19 @@
+whale_pct_tvl,whale_lock,system,whale_reward_share_pct,whale_apr_pct,retail_avg_apr_pct,spark_nolock_apr_pct,pulsar_90d_apr_pct,quasar_90d_apr_pct,whale_per_xlm_vs_spark_nolock,capped_excess_redistributed_xlm_day,wallets_capped
+10,90d,"v0 tier multipliers, no cap",12.33,5.65,4.46,3.61,5.19,5.42,1.562,0.0,-
+10,90d,"v1 flat + lock boost, no cap",11.17,5.11,4.52,4.09,5.11,5.11,1.25,0.0,-
+10,90d,v1 flat + lock boost + 5% cap,5.0,2.29,4.83,4.44,5.56,4.58,0.515,8.41,Whale;Quasar-30d;Quasar-90d
+10,none,"v0 tier multipliers, no cap",10.11,4.63,4.57,3.7,5.33,5.56,1.25,0.0,-
+10,none,"v1 flat + lock boost, no cap",9.14,4.18,4.62,4.18,5.23,5.23,1.0,0.0,-
+10,none,v1 flat + lock boost + 5% cap,5.0,2.29,4.83,4.44,5.56,4.58,0.515,6.19,Whale;Quasar-30d;Quasar-90d
+30,90d,"v0 tier multipliers, no cap",35.16,5.37,4.24,3.44,4.94,5.15,1.562,0.0,-
+30,90d,"v1 flat + lock boost, no cap",32.65,4.98,4.41,3.99,4.98,4.98,1.25,0.0,-
+30,90d,v1 flat + lock boost + 5% cap,5.0,0.76,6.22,6.0,7.49,4.58,0.127,34.03,Whale;Quasar-none;Quasar-30d;Quasar-90d
+30,none,"v0 tier multipliers, no cap",30.26,4.62,4.56,3.7,5.31,5.54,1.25,0.0,-
+30,none,"v1 flat + lock boost, no cap",27.95,4.27,4.71,4.27,5.33,5.33,1.0,0.0,-
+30,none,v1 flat + lock boost + 5% cap,5.0,0.76,6.22,6.0,7.49,4.58,0.127,29.31,Whale;Quasar-none;Quasar-30d;Quasar-90d
+50,90d,"v0 tier multipliers, no cap",55.86,5.12,4.04,3.27,4.71,4.91,1.562,0.0,-
+50,90d,"v1 flat + lock boost, no cap",53.08,4.86,4.3,3.89,4.86,4.86,1.25,0.0,-
+50,90d,v1 flat + lock boost + 5% cap,5.0,0.46,8.7,8.81,11.01,4.58,0.052,59.56,Whale;Quasar-none;Quasar-30d;Quasar-90d
+50,none,"v0 tier multipliers, no cap",50.31,4.61,4.55,3.69,5.3,5.53,1.25,0.0,-
+50,none,"v1 flat + lock boost, no cap",47.51,4.35,4.81,4.35,5.44,5.44,1.0,0.0,-
+50,none,v1 flat + lock boost + 5% cap,5.0,0.46,8.7,8.81,11.01,4.58,0.052,53.96,Whale;Quasar-none;Quasar-30d;Quasar-90d

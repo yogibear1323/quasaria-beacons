@@ -1,0 +1,31 @@
+:root{color-scheme:dark;--bg:#14121f;--bg-elev:#1b1829;--bg-sunken:rgba(14,12,23,.6);--surface:rgba(27,24,41,.86);--surface-2:rgba(34,30,51,.82);--line:#342d52;--line-2:#40386a;--line-accent:rgba(139,124,255,.45);--text:#ecebf5;--text-2:#a9a4c4;--text-3:#948eb4;--violet:#8b7cff;--violet-hi:#c4b5fd;--cyan:#22d3ee;--cyan-hi:#a5f3fc;--green:#34d399;--red:#fb7185;--amber:#fbbf24;--grad-button:linear-gradient(135deg,#6d4aff 0%,#4f46e5 100%)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
+body{margin:0;background:var(--bg);color:var(--text);font:15px/1.55 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+a{color:var(--cyan-hi)}code,.mono{font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.banner{background:#2a2440;border-bottom:1px solid var(--line-2);color:var(--amber);text-align:center;font-size:13px;padding:6px 12px;position:sticky;top:0;z-index:20}
+nav.top{display:flex;flex-wrap:wrap;gap:4px 14px;padding:10px 20px;border-bottom:1px solid var(--line);background:var(--bg-elev);position:sticky;top:30px;z-index:19}
+nav.top a{color:var(--text-2);text-decoration:none;font-size:14px}nav.top a:hover{color:var(--text)}nav.top b{color:var(--text);margin-right:10px}
+.hero{position:relative;min-height:440px;display:flex;align-items:center;overflow:hidden;border-bottom:1px solid var(--line)}
+.hero .copy{position:relative;z-index:2;max-width:620px;padding:56px 24px 56px 6vw}
+.hero h1{font-size:clamp(32px,5vw,52px);margin:0 0 12px;color:#fff;letter-spacing:-.02em}
+.hero p{color:var(--text-2);font-size:17px}
+.pill{display:inline-block;border:1px solid var(--line-accent);color:var(--violet-hi);border-radius:999px;padding:2px 10px;font-size:12px;margin:0 6px 6px 0}
+main{max-width:1120px;margin:0 auto;padding:0 20px 60px}
+section{position:relative;padding:44px 0 8px;scroll-margin-top:90px}
+section>.qz-orbits{width:320px;height:320px;right:-80px;top:0;opacity:.8}
+h2{font-size:26px;margin:0 0 6px}h3{margin:0 0 8px;font-size:17px}.sub{color:var(--text-2);margin:0 0 18px}
+.grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));position:relative;z-index:1}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:16px;position:relative;z-index:1}
+.card.sel{border-color:var(--cyan);box-shadow:0 0 0 1px rgba(34,211,238,.35),0 8px 28px -10px rgba(34,211,238,.55)}
+.muted{color:var(--text-3);font-size:13px}.big{font-size:26px;font-weight:700;color:#fff}.ok{color:var(--green)}.bad{color:var(--red)}.warn{color:var(--amber)}
+table{width:100%;border-collapse:collapse;font-size:14px}th,td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left}td.n,th.n{text-align:right;font-variant-numeric:tabular-nums}th{color:var(--text-2);font-weight:600}
+.bar{display:flex;height:34px;border-radius:10px;overflow:hidden;border:1px solid var(--line-2)}.bar div{display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:600;color:#0d0b16}
+.ctrl{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px 18px}
+label{display:block;font-size:13px;color:var(--text-2)}label output{float:right;color:var(--text);font-family:ui-monospace,monospace}
+input[type=range]{width:100%;accent-color:var(--violet)}select,input[type=number]{width:100%;background:var(--bg-sunken);color:var(--text);border:1px solid var(--line-2);border-radius:8px;padding:7px}
+.toggle{display:flex;gap:8px;align-items:center;color:var(--text);font-size:14px}
+.seg{display:inline-flex;border:1px solid var(--line-2);border-radius:10px;overflow:hidden}.seg button{background:transparent;color:var(--text-2);border:0;padding:8px 14px;cursor:pointer;font:inherit}.seg button[aria-pressed=true]{background:var(--grad-button);color:#fff}
+svg.chart{width:100%;height:240px;background:var(--bg-sunken);border:1px solid var(--line);border-radius:12px}
+.flow{width:100%;height:auto}.foot{color:var(--text-3);font-size:13px;border-top:1px solid var(--line);padding:20px;text-align:center}
+ul.rules li{margin:4px 0}
+@media (max-width:760px){.hero{min-height:520px;align-items:flex-end}.hero .copy{padding:40px 18px}nav.top{position:static}section>.qz-orbits{display:none}}

@@ -1,0 +1,1191 @@
+scenario,blend_alloc_pct,exit_pct,utilization,cycle,hour,cash,blend,queue,paid_cum
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,normal (<=80% util),0,0,790000,210000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,normal (<=80% util),1,4,790000,210000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,normal (<=80% util),2,8,790000,210000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,normal (<=80% util),3,12,790000,210000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,normal (<=80% util),4,16,790000,210000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,normal (<=80% util),5,20,790000,210000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,normal (<=80% util),6,24,790000,210000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,normal (<=80% util),7,28,790000,210000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,normal (<=80% util),8,32,790000,210000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,normal (<=80% util),9,36,790000,210000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,normal (<=80% util),10,40,790000,210000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,normal (<=80% util),11,44,790000,210000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,normal (<=80% util),12,48,790000,210000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,normal (<=80% util),13,52,790000,210000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,normal (<=80% util),14,56,790000,210000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,normal (<=80% util),15,60,790000,210000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,normal (<=80% util),16,64,790000,210000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,normal (<=80% util),17,68,790000,210000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,normal (<=80% util),18,72,790000,210000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,normal (<=80% util),19,76,790000,210000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,normal (<=80% util),20,80,790000,210000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,normal (<=80% util),21,84,790000,210000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,normal (<=80% util),22,88,790000,210000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,normal (<=80% util),23,92,790000,210000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,normal (<=80% util),24,96,790000,210000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,normal (<=80% util),25,100,790000,210000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,normal (<=80% util),26,104,790000,210000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,normal (<=80% util),27,108,790000,210000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,normal (<=80% util),28,112,790000,210000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,normal (<=80% util),29,116,790000,210000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,normal (<=80% util),30,120,790000,210000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,normal (<=80% util),31,124,790000,210000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,normal (<=80% util),32,128,790000,210000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,normal (<=80% util),33,132,790000,210000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,normal (<=80% util),34,136,790000,210000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,normal (<=80% util),35,140,790000,210000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,normal (<=80% util),36,144,790000,210000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,normal (<=80% util),37,148,790000,210000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,normal (<=80% util),38,152,790000,210000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,normal (<=80% util),39,156,790000,210000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,normal (<=80% util),40,160,790000,210000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,normal (<=80% util),41,164,790000,210000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,normal (<=80% util),42,168,770000,210000,280000,20000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,normal (<=80% util),43,172,750000,210000,260000,40000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,normal (<=80% util),44,176,730000,210000,240000,60000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,normal (<=80% util),45,180,710000,210000,220000,80000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,normal (<=80% util),46,184,690000,210000,200000,100000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,normal (<=80% util),47,188,670000,210000,180000,120000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,normal (<=80% util),48,192,650000,210000,160000,140000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,normal (<=80% util),49,196,630000,210000,140000,160000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,normal (<=80% util),50,200,610000,210000,120000,180000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,normal (<=80% util),51,204,590000,210000,100000,200000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,normal (<=80% util),52,208,570000,210000,80000,220000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,normal (<=80% util),53,212,550000,210000,60000,240000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,normal (<=80% util),54,216,530000,210000,40000,260000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,normal (<=80% util),55,220,510000,210000,20000,280000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,normal (<=80% util),56,224,490000,210000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,normal (<=80% util),57,228,490000,210000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,normal (<=80% util),58,232,490000,210000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,normal (<=80% util),59,236,490000,210000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,normal (<=80% util),60,240,490000,210000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,normal (<=80% util),61,244,490000,210000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,normal (<=80% util),62,248,490000,210000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,normal (<=80% util),63,252,490000,210000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,normal (<=80% util),64,256,490000,210000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,normal (<=80% util),65,260,490000,210000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,normal (<=80% util),66,264,490000,210000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,normal (<=80% util),67,268,490000,210000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,normal (<=80% util),68,272,490000,210000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,normal (<=80% util),69,276,490000,210000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,normal (<=80% util),70,280,490000,210000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,normal (<=80% util),71,284,490000,210000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,normal (<=80% util),72,288,490000,210000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,normal (<=80% util),73,292,490000,210000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,normal (<=80% util),74,296,490000,210000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,normal (<=80% util),75,300,490000,210000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,normal (<=80% util),76,304,490000,210000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,normal (<=80% util),77,308,490000,210000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,normal (<=80% util),78,312,490000,210000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,normal (<=80% util),79,316,490000,210000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,normal (<=80% util),80,320,490000,210000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,normal (<=80% util),81,324,490000,210000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,normal (<=80% util),82,328,490000,210000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,normal (<=80% util),83,332,490000,210000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,normal (<=80% util),84,336,490000,210000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,normal (<=80% util),0,0,880000,120000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,normal (<=80% util),1,4,880000,120000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,normal (<=80% util),2,8,880000,120000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,normal (<=80% util),3,12,880000,120000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,normal (<=80% util),4,16,880000,120000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,normal (<=80% util),5,20,880000,120000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,normal (<=80% util),6,24,880000,120000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,normal (<=80% util),7,28,880000,120000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,normal (<=80% util),8,32,880000,120000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,normal (<=80% util),9,36,880000,120000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,normal (<=80% util),10,40,880000,120000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,normal (<=80% util),11,44,880000,120000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,normal (<=80% util),12,48,880000,120000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,normal (<=80% util),13,52,880000,120000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,normal (<=80% util),14,56,880000,120000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,normal (<=80% util),15,60,880000,120000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,normal (<=80% util),16,64,880000,120000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,normal (<=80% util),17,68,880000,120000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,normal (<=80% util),18,72,880000,120000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,normal (<=80% util),19,76,880000,120000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,normal (<=80% util),20,80,880000,120000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,normal (<=80% util),21,84,880000,120000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,normal (<=80% util),22,88,880000,120000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,normal (<=80% util),23,92,880000,120000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,normal (<=80% util),24,96,880000,120000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,normal (<=80% util),25,100,880000,120000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,normal (<=80% util),26,104,880000,120000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,normal (<=80% util),27,108,880000,120000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,normal (<=80% util),28,112,880000,120000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,normal (<=80% util),29,116,880000,120000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,normal (<=80% util),30,120,880000,120000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,normal (<=80% util),31,124,880000,120000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,normal (<=80% util),32,128,880000,120000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,normal (<=80% util),33,132,880000,120000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,normal (<=80% util),34,136,880000,120000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,normal (<=80% util),35,140,880000,120000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,normal (<=80% util),36,144,880000,120000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,normal (<=80% util),37,148,880000,120000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,normal (<=80% util),38,152,880000,120000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,normal (<=80% util),39,156,880000,120000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,normal (<=80% util),40,160,880000,120000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,normal (<=80% util),41,164,880000,120000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,normal (<=80% util),42,168,860000,120000,580000,20000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,normal (<=80% util),43,172,840000,120000,560000,40000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,normal (<=80% util),44,176,820000,120000,540000,60000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,normal (<=80% util),45,180,800000,120000,520000,80000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,normal (<=80% util),46,184,780000,120000,500000,100000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,normal (<=80% util),47,188,760000,120000,480000,120000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,normal (<=80% util),48,192,740000,120000,460000,140000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,normal (<=80% util),49,196,720000,120000,440000,160000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,normal (<=80% util),50,200,700000,120000,420000,180000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,normal (<=80% util),51,204,680000,120000,400000,200000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,normal (<=80% util),52,208,660000,120000,380000,220000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,normal (<=80% util),53,212,640000,120000,360000,240000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,normal (<=80% util),54,216,620000,120000,340000,260000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,normal (<=80% util),55,220,600000,120000,320000,280000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,normal (<=80% util),56,224,580000,120000,300000,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,normal (<=80% util),57,228,560000,120000,280000,320000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,normal (<=80% util),58,232,540000,120000,260000,340000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,normal (<=80% util),59,236,520000,120000,240000,360000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,normal (<=80% util),60,240,500000,120000,220000,380000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,normal (<=80% util),61,244,480000,120000,200000,400000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,normal (<=80% util),62,248,460000,120000,180000,420000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,normal (<=80% util),63,252,440000,120000,160000,440000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,normal (<=80% util),64,256,420000,120000,140000,460000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,normal (<=80% util),65,260,400000,120000,120000,480000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,normal (<=80% util),66,264,380000,120000,100000,500000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,normal (<=80% util),67,268,360000,120000,80000,520000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,normal (<=80% util),68,272,340000,120000,60000,540000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,normal (<=80% util),69,276,320000,120000,40000,560000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,normal (<=80% util),70,280,300000,120000,20000,580000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,normal (<=80% util),71,284,280000,120000,0,600000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,normal (<=80% util),72,288,280000,120000,0,600000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,normal (<=80% util),73,292,280000,120000,0,600000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,normal (<=80% util),74,296,280000,120000,0,600000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,normal (<=80% util),75,300,280000,120000,0,600000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,normal (<=80% util),76,304,280000,120000,0,600000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,normal (<=80% util),77,308,280000,120000,0,600000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,normal (<=80% util),78,312,280000,120000,0,600000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,normal (<=80% util),79,316,280000,120000,0,600000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,normal (<=80% util),80,320,280000,120000,0,600000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,normal (<=80% util),81,324,280000,120000,0,600000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,normal (<=80% util),82,328,280000,120000,0,600000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,normal (<=80% util),83,332,280000,120000,0,600000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,normal (<=80% util),84,336,280000,120000,0,600000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,95% util,0,0,705000,295000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,95% util,1,4,710000,290000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,95% util,2,8,715000,285000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,95% util,3,12,720000,280000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,95% util,4,16,725000,275000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,95% util,5,20,730000,270000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,95% util,6,24,735000,265000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,95% util,7,28,740000,260000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,95% util,8,32,745000,255000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,95% util,9,36,750000,250000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,95% util,10,40,755000,245000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,95% util,11,44,760000,240000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,95% util,12,48,765000,235000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,95% util,13,52,770000,230000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,95% util,14,56,775000,225000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,95% util,15,60,780000,220000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,95% util,16,64,785000,215000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,95% util,17,68,790000,210000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,95% util,18,72,790000,210000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,95% util,19,76,790000,210000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,95% util,20,80,790000,210000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,95% util,21,84,790000,210000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,95% util,22,88,790000,210000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,95% util,23,92,790000,210000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,95% util,24,96,790000,210000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,95% util,25,100,790000,210000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,95% util,26,104,790000,210000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,95% util,27,108,790000,210000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,95% util,28,112,790000,210000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,95% util,29,116,790000,210000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,95% util,30,120,790000,210000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,95% util,31,124,790000,210000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,95% util,32,128,790000,210000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,95% util,33,132,790000,210000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,95% util,34,136,790000,210000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,95% util,35,140,790000,210000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,95% util,36,144,790000,210000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,95% util,37,148,790000,210000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,95% util,38,152,790000,210000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,95% util,39,156,790000,210000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,95% util,40,160,790000,210000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,95% util,41,164,790000,210000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,95% util,42,168,770000,210000,280000,20000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,95% util,43,172,750000,210000,260000,40000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,95% util,44,176,730000,210000,240000,60000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,95% util,45,180,710000,210000,220000,80000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,95% util,46,184,690000,210000,200000,100000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,95% util,47,188,670000,210000,180000,120000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,95% util,48,192,650000,210000,160000,140000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,95% util,49,196,630000,210000,140000,160000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,95% util,50,200,610000,210000,120000,180000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,95% util,51,204,590000,210000,100000,200000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,95% util,52,208,570000,210000,80000,220000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,95% util,53,212,550000,210000,60000,240000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,95% util,54,216,530000,210000,40000,260000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,95% util,55,220,510000,210000,20000,280000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,95% util,56,224,490000,210000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,95% util,57,228,490000,210000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,95% util,58,232,490000,210000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,95% util,59,236,490000,210000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,95% util,60,240,490000,210000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,95% util,61,244,490000,210000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,95% util,62,248,490000,210000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,95% util,63,252,490000,210000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,95% util,64,256,490000,210000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,95% util,65,260,490000,210000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,95% util,66,264,490000,210000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,95% util,67,268,490000,210000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,95% util,68,272,490000,210000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,95% util,69,276,490000,210000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,95% util,70,280,490000,210000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,95% util,71,284,490000,210000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,95% util,72,288,490000,210000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,95% util,73,292,490000,210000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,95% util,74,296,490000,210000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,95% util,75,300,490000,210000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,95% util,76,304,490000,210000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,95% util,77,308,490000,210000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,95% util,78,312,490000,210000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,95% util,79,316,490000,210000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,95% util,80,320,490000,210000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,95% util,81,324,490000,210000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,95% util,82,328,490000,210000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,95% util,83,332,490000,210000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,30,95% util,84,336,490000,210000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,95% util,0,0,705000,295000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,95% util,1,4,710000,290000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,95% util,2,8,715000,285000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,95% util,3,12,720000,280000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,95% util,4,16,725000,275000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,95% util,5,20,730000,270000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,95% util,6,24,735000,265000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,95% util,7,28,740000,260000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,95% util,8,32,745000,255000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,95% util,9,36,750000,250000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,95% util,10,40,755000,245000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,95% util,11,44,760000,240000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,95% util,12,48,765000,235000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,95% util,13,52,770000,230000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,95% util,14,56,775000,225000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,95% util,15,60,780000,220000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,95% util,16,64,785000,215000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,95% util,17,68,790000,210000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,95% util,18,72,795000,205000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,95% util,19,76,800000,200000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,95% util,20,80,805000,195000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,95% util,21,84,810000,190000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,95% util,22,88,815000,185000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,95% util,23,92,820000,180000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,95% util,24,96,825000,175000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,95% util,25,100,830000,170000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,95% util,26,104,835000,165000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,95% util,27,108,840000,160000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,95% util,28,112,845000,155000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,95% util,29,116,850000,150000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,95% util,30,120,855000,145000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,95% util,31,124,860000,140000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,95% util,32,128,865000,135000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,95% util,33,132,870000,130000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,95% util,34,136,875000,125000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,95% util,35,140,880000,120000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,95% util,36,144,880000,120000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,95% util,37,148,880000,120000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,95% util,38,152,880000,120000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,95% util,39,156,880000,120000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,95% util,40,160,880000,120000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,95% util,41,164,880000,120000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,95% util,42,168,860000,120000,580000,20000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,95% util,43,172,840000,120000,560000,40000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,95% util,44,176,820000,120000,540000,60000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,95% util,45,180,800000,120000,520000,80000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,95% util,46,184,780000,120000,500000,100000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,95% util,47,188,760000,120000,480000,120000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,95% util,48,192,740000,120000,460000,140000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,95% util,49,196,720000,120000,440000,160000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,95% util,50,200,700000,120000,420000,180000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,95% util,51,204,680000,120000,400000,200000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,95% util,52,208,660000,120000,380000,220000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,95% util,53,212,640000,120000,360000,240000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,95% util,54,216,620000,120000,340000,260000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,95% util,55,220,600000,120000,320000,280000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,95% util,56,224,580000,120000,300000,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,95% util,57,228,560000,120000,280000,320000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,95% util,58,232,540000,120000,260000,340000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,95% util,59,236,520000,120000,240000,360000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,95% util,60,240,500000,120000,220000,380000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,95% util,61,244,480000,120000,200000,400000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,95% util,62,248,460000,120000,180000,420000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,95% util,63,252,440000,120000,160000,440000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,95% util,64,256,420000,120000,140000,460000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,95% util,65,260,400000,120000,120000,480000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,95% util,66,264,380000,120000,100000,500000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,95% util,67,268,360000,120000,80000,520000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,95% util,68,272,340000,120000,60000,540000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,95% util,69,276,320000,120000,40000,560000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,95% util,70,280,300000,120000,20000,580000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,95% util,71,284,280000,120000,0,600000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,95% util,72,288,280000,120000,0,600000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,95% util,73,292,280000,120000,0,600000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,95% util,74,296,280000,120000,0,600000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,95% util,75,300,280000,120000,0,600000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,95% util,76,304,280000,120000,0,600000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,95% util,77,308,280000,120000,0,600000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,95% util,78,312,280000,120000,0,600000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,95% util,79,316,280000,120000,0,600000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,95% util,80,320,280000,120000,0,600000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,95% util,81,324,280000,120000,0,600000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,95% util,82,328,280000,120000,0,600000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,95% util,83,332,280000,120000,0,600000
+"v1: 7d unbond, 2%/cycle cap, FIFO",30,60,95% util,84,336,280000,120000,0,600000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,normal (<=80% util),0,0,720000,280000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,normal (<=80% util),1,4,720000,280000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,normal (<=80% util),2,8,720000,280000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,normal (<=80% util),3,12,720000,280000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,normal (<=80% util),4,16,720000,280000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,normal (<=80% util),5,20,720000,280000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,normal (<=80% util),6,24,720000,280000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,normal (<=80% util),7,28,720000,280000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,normal (<=80% util),8,32,720000,280000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,normal (<=80% util),9,36,720000,280000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,normal (<=80% util),10,40,720000,280000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,normal (<=80% util),11,44,720000,280000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,normal (<=80% util),12,48,720000,280000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,normal (<=80% util),13,52,720000,280000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,normal (<=80% util),14,56,720000,280000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,normal (<=80% util),15,60,720000,280000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,normal (<=80% util),16,64,720000,280000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,normal (<=80% util),17,68,720000,280000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,normal (<=80% util),18,72,720000,280000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,normal (<=80% util),19,76,720000,280000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,normal (<=80% util),20,80,720000,280000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,normal (<=80% util),21,84,720000,280000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,normal (<=80% util),22,88,720000,280000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,normal (<=80% util),23,92,720000,280000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,normal (<=80% util),24,96,720000,280000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,normal (<=80% util),25,100,720000,280000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,normal (<=80% util),26,104,720000,280000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,normal (<=80% util),27,108,720000,280000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,normal (<=80% util),28,112,720000,280000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,normal (<=80% util),29,116,720000,280000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,normal (<=80% util),30,120,720000,280000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,normal (<=80% util),31,124,720000,280000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,normal (<=80% util),32,128,720000,280000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,normal (<=80% util),33,132,720000,280000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,normal (<=80% util),34,136,720000,280000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,normal (<=80% util),35,140,720000,280000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,normal (<=80% util),36,144,720000,280000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,normal (<=80% util),37,148,720000,280000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,normal (<=80% util),38,152,720000,280000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,normal (<=80% util),39,156,720000,280000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,normal (<=80% util),40,160,720000,280000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,normal (<=80% util),41,164,720000,280000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,normal (<=80% util),42,168,700000,280000,280000,20000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,normal (<=80% util),43,172,680000,280000,260000,40000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,normal (<=80% util),44,176,660000,280000,240000,60000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,normal (<=80% util),45,180,640000,280000,220000,80000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,normal (<=80% util),46,184,620000,280000,200000,100000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,normal (<=80% util),47,188,600000,280000,180000,120000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,normal (<=80% util),48,192,580000,280000,160000,140000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,normal (<=80% util),49,196,560000,280000,140000,160000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,normal (<=80% util),50,200,540000,280000,120000,180000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,normal (<=80% util),51,204,520000,280000,100000,200000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,normal (<=80% util),52,208,500000,280000,80000,220000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,normal (<=80% util),53,212,480000,280000,60000,240000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,normal (<=80% util),54,216,460000,280000,40000,260000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,normal (<=80% util),55,220,440000,280000,20000,280000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,normal (<=80% util),56,224,420000,280000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,normal (<=80% util),57,228,420000,280000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,normal (<=80% util),58,232,420000,280000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,normal (<=80% util),59,236,420000,280000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,normal (<=80% util),60,240,420000,280000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,normal (<=80% util),61,244,420000,280000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,normal (<=80% util),62,248,420000,280000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,normal (<=80% util),63,252,420000,280000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,normal (<=80% util),64,256,420000,280000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,normal (<=80% util),65,260,420000,280000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,normal (<=80% util),66,264,420000,280000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,normal (<=80% util),67,268,420000,280000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,normal (<=80% util),68,272,420000,280000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,normal (<=80% util),69,276,420000,280000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,normal (<=80% util),70,280,420000,280000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,normal (<=80% util),71,284,420000,280000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,normal (<=80% util),72,288,420000,280000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,normal (<=80% util),73,292,420000,280000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,normal (<=80% util),74,296,420000,280000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,normal (<=80% util),75,300,420000,280000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,normal (<=80% util),76,304,420000,280000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,normal (<=80% util),77,308,420000,280000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,normal (<=80% util),78,312,420000,280000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,normal (<=80% util),79,316,420000,280000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,normal (<=80% util),80,320,420000,280000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,normal (<=80% util),81,324,420000,280000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,normal (<=80% util),82,328,420000,280000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,normal (<=80% util),83,332,420000,280000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,normal (<=80% util),84,336,420000,280000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,normal (<=80% util),0,0,840000,160000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,normal (<=80% util),1,4,840000,160000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,normal (<=80% util),2,8,840000,160000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,normal (<=80% util),3,12,840000,160000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,normal (<=80% util),4,16,840000,160000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,normal (<=80% util),5,20,840000,160000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,normal (<=80% util),6,24,840000,160000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,normal (<=80% util),7,28,840000,160000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,normal (<=80% util),8,32,840000,160000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,normal (<=80% util),9,36,840000,160000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,normal (<=80% util),10,40,840000,160000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,normal (<=80% util),11,44,840000,160000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,normal (<=80% util),12,48,840000,160000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,normal (<=80% util),13,52,840000,160000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,normal (<=80% util),14,56,840000,160000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,normal (<=80% util),15,60,840000,160000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,normal (<=80% util),16,64,840000,160000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,normal (<=80% util),17,68,840000,160000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,normal (<=80% util),18,72,840000,160000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,normal (<=80% util),19,76,840000,160000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,normal (<=80% util),20,80,840000,160000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,normal (<=80% util),21,84,840000,160000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,normal (<=80% util),22,88,840000,160000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,normal (<=80% util),23,92,840000,160000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,normal (<=80% util),24,96,840000,160000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,normal (<=80% util),25,100,840000,160000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,normal (<=80% util),26,104,840000,160000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,normal (<=80% util),27,108,840000,160000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,normal (<=80% util),28,112,840000,160000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,normal (<=80% util),29,116,840000,160000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,normal (<=80% util),30,120,840000,160000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,normal (<=80% util),31,124,840000,160000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,normal (<=80% util),32,128,840000,160000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,normal (<=80% util),33,132,840000,160000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,normal (<=80% util),34,136,840000,160000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,normal (<=80% util),35,140,840000,160000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,normal (<=80% util),36,144,840000,160000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,normal (<=80% util),37,148,840000,160000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,normal (<=80% util),38,152,840000,160000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,normal (<=80% util),39,156,840000,160000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,normal (<=80% util),40,160,840000,160000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,normal (<=80% util),41,164,840000,160000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,normal (<=80% util),42,168,820000,160000,580000,20000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,normal (<=80% util),43,172,800000,160000,560000,40000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,normal (<=80% util),44,176,780000,160000,540000,60000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,normal (<=80% util),45,180,760000,160000,520000,80000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,normal (<=80% util),46,184,740000,160000,500000,100000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,normal (<=80% util),47,188,720000,160000,480000,120000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,normal (<=80% util),48,192,700000,160000,460000,140000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,normal (<=80% util),49,196,680000,160000,440000,160000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,normal (<=80% util),50,200,660000,160000,420000,180000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,normal (<=80% util),51,204,640000,160000,400000,200000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,normal (<=80% util),52,208,620000,160000,380000,220000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,normal (<=80% util),53,212,600000,160000,360000,240000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,normal (<=80% util),54,216,580000,160000,340000,260000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,normal (<=80% util),55,220,560000,160000,320000,280000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,normal (<=80% util),56,224,540000,160000,300000,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,normal (<=80% util),57,228,520000,160000,280000,320000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,normal (<=80% util),58,232,500000,160000,260000,340000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,normal (<=80% util),59,236,480000,160000,240000,360000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,normal (<=80% util),60,240,460000,160000,220000,380000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,normal (<=80% util),61,244,440000,160000,200000,400000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,normal (<=80% util),62,248,420000,160000,180000,420000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,normal (<=80% util),63,252,400000,160000,160000,440000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,normal (<=80% util),64,256,380000,160000,140000,460000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,normal (<=80% util),65,260,360000,160000,120000,480000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,normal (<=80% util),66,264,340000,160000,100000,500000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,normal (<=80% util),67,268,320000,160000,80000,520000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,normal (<=80% util),68,272,300000,160000,60000,540000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,normal (<=80% util),69,276,280000,160000,40000,560000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,normal (<=80% util),70,280,260000,160000,20000,580000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,normal (<=80% util),71,284,240000,160000,0,600000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,normal (<=80% util),72,288,240000,160000,0,600000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,normal (<=80% util),73,292,240000,160000,0,600000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,normal (<=80% util),74,296,240000,160000,0,600000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,normal (<=80% util),75,300,240000,160000,0,600000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,normal (<=80% util),76,304,240000,160000,0,600000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,normal (<=80% util),77,308,240000,160000,0,600000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,normal (<=80% util),78,312,240000,160000,0,600000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,normal (<=80% util),79,316,240000,160000,0,600000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,normal (<=80% util),80,320,240000,160000,0,600000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,normal (<=80% util),81,324,240000,160000,0,600000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,normal (<=80% util),82,328,240000,160000,0,600000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,normal (<=80% util),83,332,240000,160000,0,600000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,normal (<=80% util),84,336,240000,160000,0,600000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,95% util,0,0,605000,395000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,95% util,1,4,610000,390000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,95% util,2,8,615000,385000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,95% util,3,12,620000,380000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,95% util,4,16,625000,375000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,95% util,5,20,630000,370000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,95% util,6,24,635000,365000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,95% util,7,28,640000,360000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,95% util,8,32,645000,355000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,95% util,9,36,650000,350000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,95% util,10,40,655000,345000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,95% util,11,44,660000,340000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,95% util,12,48,665000,335000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,95% util,13,52,670000,330000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,95% util,14,56,675000,325000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,95% util,15,60,680000,320000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,95% util,16,64,685000,315000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,95% util,17,68,690000,310000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,95% util,18,72,695000,305000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,95% util,19,76,700000,300000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,95% util,20,80,705000,295000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,95% util,21,84,710000,290000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,95% util,22,88,715000,285000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,95% util,23,92,720000,280000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,95% util,24,96,720000,280000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,95% util,25,100,720000,280000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,95% util,26,104,720000,280000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,95% util,27,108,720000,280000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,95% util,28,112,720000,280000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,95% util,29,116,720000,280000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,95% util,30,120,720000,280000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,95% util,31,124,720000,280000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,95% util,32,128,720000,280000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,95% util,33,132,720000,280000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,95% util,34,136,720000,280000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,95% util,35,140,720000,280000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,95% util,36,144,720000,280000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,95% util,37,148,720000,280000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,95% util,38,152,720000,280000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,95% util,39,156,720000,280000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,95% util,40,160,720000,280000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,95% util,41,164,720000,280000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,95% util,42,168,700000,280000,280000,20000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,95% util,43,172,680000,280000,260000,40000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,95% util,44,176,660000,280000,240000,60000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,95% util,45,180,640000,280000,220000,80000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,95% util,46,184,620000,280000,200000,100000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,95% util,47,188,600000,280000,180000,120000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,95% util,48,192,580000,280000,160000,140000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,95% util,49,196,560000,280000,140000,160000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,95% util,50,200,540000,280000,120000,180000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,95% util,51,204,520000,280000,100000,200000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,95% util,52,208,500000,280000,80000,220000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,95% util,53,212,480000,280000,60000,240000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,95% util,54,216,460000,280000,40000,260000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,95% util,55,220,440000,280000,20000,280000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,95% util,56,224,420000,280000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,95% util,57,228,420000,280000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,95% util,58,232,420000,280000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,95% util,59,236,420000,280000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,95% util,60,240,420000,280000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,95% util,61,244,420000,280000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,95% util,62,248,420000,280000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,95% util,63,252,420000,280000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,95% util,64,256,420000,280000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,95% util,65,260,420000,280000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,95% util,66,264,420000,280000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,95% util,67,268,420000,280000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,95% util,68,272,420000,280000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,95% util,69,276,420000,280000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,95% util,70,280,420000,280000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,95% util,71,284,420000,280000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,95% util,72,288,420000,280000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,95% util,73,292,420000,280000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,95% util,74,296,420000,280000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,95% util,75,300,420000,280000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,95% util,76,304,420000,280000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,95% util,77,308,420000,280000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,95% util,78,312,420000,280000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,95% util,79,316,420000,280000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,95% util,80,320,420000,280000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,95% util,81,324,420000,280000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,95% util,82,328,420000,280000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,95% util,83,332,420000,280000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,30,95% util,84,336,420000,280000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,95% util,0,0,605000,395000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,95% util,1,4,610000,390000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,95% util,2,8,615000,385000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,95% util,3,12,620000,380000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,95% util,4,16,625000,375000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,95% util,5,20,630000,370000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,95% util,6,24,635000,365000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,95% util,7,28,640000,360000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,95% util,8,32,645000,355000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,95% util,9,36,650000,350000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,95% util,10,40,655000,345000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,95% util,11,44,660000,340000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,95% util,12,48,665000,335000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,95% util,13,52,670000,330000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,95% util,14,56,675000,325000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,95% util,15,60,680000,320000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,95% util,16,64,685000,315000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,95% util,17,68,690000,310000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,95% util,18,72,695000,305000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,95% util,19,76,700000,300000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,95% util,20,80,705000,295000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,95% util,21,84,710000,290000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,95% util,22,88,715000,285000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,95% util,23,92,720000,280000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,95% util,24,96,725000,275000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,95% util,25,100,730000,270000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,95% util,26,104,735000,265000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,95% util,27,108,740000,260000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,95% util,28,112,745000,255000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,95% util,29,116,750000,250000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,95% util,30,120,755000,245000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,95% util,31,124,760000,240000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,95% util,32,128,765000,235000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,95% util,33,132,770000,230000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,95% util,34,136,775000,225000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,95% util,35,140,780000,220000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,95% util,36,144,785000,215000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,95% util,37,148,790000,210000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,95% util,38,152,795000,205000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,95% util,39,156,800000,200000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,95% util,40,160,805000,195000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,95% util,41,164,810000,190000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,95% util,42,168,795000,185000,580000,20000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,95% util,43,172,780000,180000,560000,40000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,95% util,44,176,765000,175000,540000,60000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,95% util,45,180,750000,170000,520000,80000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,95% util,46,184,735000,165000,500000,100000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,95% util,47,188,720000,160000,480000,120000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,95% util,48,192,700000,160000,460000,140000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,95% util,49,196,680000,160000,440000,160000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,95% util,50,200,660000,160000,420000,180000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,95% util,51,204,640000,160000,400000,200000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,95% util,52,208,620000,160000,380000,220000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,95% util,53,212,600000,160000,360000,240000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,95% util,54,216,580000,160000,340000,260000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,95% util,55,220,560000,160000,320000,280000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,95% util,56,224,540000,160000,300000,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,95% util,57,228,520000,160000,280000,320000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,95% util,58,232,500000,160000,260000,340000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,95% util,59,236,480000,160000,240000,360000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,95% util,60,240,460000,160000,220000,380000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,95% util,61,244,440000,160000,200000,400000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,95% util,62,248,420000,160000,180000,420000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,95% util,63,252,400000,160000,160000,440000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,95% util,64,256,380000,160000,140000,460000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,95% util,65,260,360000,160000,120000,480000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,95% util,66,264,340000,160000,100000,500000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,95% util,67,268,320000,160000,80000,520000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,95% util,68,272,300000,160000,60000,540000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,95% util,69,276,280000,160000,40000,560000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,95% util,70,280,260000,160000,20000,580000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,95% util,71,284,240000,160000,0,600000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,95% util,72,288,240000,160000,0,600000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,95% util,73,292,240000,160000,0,600000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,95% util,74,296,240000,160000,0,600000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,95% util,75,300,240000,160000,0,600000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,95% util,76,304,240000,160000,0,600000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,95% util,77,308,240000,160000,0,600000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,95% util,78,312,240000,160000,0,600000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,95% util,79,316,240000,160000,0,600000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,95% util,80,320,240000,160000,0,600000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,95% util,81,324,240000,160000,0,600000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,95% util,82,328,240000,160000,0,600000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,95% util,83,332,240000,160000,0,600000
+"v1: 7d unbond, 2%/cycle cap, FIFO",40,60,95% util,84,336,240000,160000,0,600000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,normal (<=80% util),0,0,650000,350000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,normal (<=80% util),1,4,650000,350000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,normal (<=80% util),2,8,650000,350000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,normal (<=80% util),3,12,650000,350000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,normal (<=80% util),4,16,650000,350000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,normal (<=80% util),5,20,650000,350000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,normal (<=80% util),6,24,650000,350000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,normal (<=80% util),7,28,650000,350000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,normal (<=80% util),8,32,650000,350000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,normal (<=80% util),9,36,650000,350000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,normal (<=80% util),10,40,650000,350000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,normal (<=80% util),11,44,650000,350000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,normal (<=80% util),12,48,650000,350000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,normal (<=80% util),13,52,650000,350000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,normal (<=80% util),14,56,650000,350000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,normal (<=80% util),15,60,650000,350000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,normal (<=80% util),16,64,650000,350000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,normal (<=80% util),17,68,650000,350000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,normal (<=80% util),18,72,650000,350000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,normal (<=80% util),19,76,650000,350000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,normal (<=80% util),20,80,650000,350000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,normal (<=80% util),21,84,650000,350000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,normal (<=80% util),22,88,650000,350000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,normal (<=80% util),23,92,650000,350000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,normal (<=80% util),24,96,650000,350000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,normal (<=80% util),25,100,650000,350000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,normal (<=80% util),26,104,650000,350000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,normal (<=80% util),27,108,650000,350000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,normal (<=80% util),28,112,650000,350000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,normal (<=80% util),29,116,650000,350000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,normal (<=80% util),30,120,650000,350000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,normal (<=80% util),31,124,650000,350000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,normal (<=80% util),32,128,650000,350000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,normal (<=80% util),33,132,650000,350000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,normal (<=80% util),34,136,650000,350000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,normal (<=80% util),35,140,650000,350000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,normal (<=80% util),36,144,650000,350000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,normal (<=80% util),37,148,650000,350000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,normal (<=80% util),38,152,650000,350000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,normal (<=80% util),39,156,650000,350000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,normal (<=80% util),40,160,650000,350000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,normal (<=80% util),41,164,650000,350000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,normal (<=80% util),42,168,630000,350000,280000,20000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,normal (<=80% util),43,172,610000,350000,260000,40000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,normal (<=80% util),44,176,590000,350000,240000,60000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,normal (<=80% util),45,180,570000,350000,220000,80000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,normal (<=80% util),46,184,550000,350000,200000,100000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,normal (<=80% util),47,188,530000,350000,180000,120000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,normal (<=80% util),48,192,510000,350000,160000,140000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,normal (<=80% util),49,196,490000,350000,140000,160000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,normal (<=80% util),50,200,470000,350000,120000,180000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,normal (<=80% util),51,204,450000,350000,100000,200000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,normal (<=80% util),52,208,430000,350000,80000,220000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,normal (<=80% util),53,212,410000,350000,60000,240000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,normal (<=80% util),54,216,390000,350000,40000,260000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,normal (<=80% util),55,220,370000,350000,20000,280000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,normal (<=80% util),56,224,350000,350000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,normal (<=80% util),57,228,350000,350000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,normal (<=80% util),58,232,350000,350000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,normal (<=80% util),59,236,350000,350000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,normal (<=80% util),60,240,350000,350000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,normal (<=80% util),61,244,350000,350000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,normal (<=80% util),62,248,350000,350000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,normal (<=80% util),63,252,350000,350000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,normal (<=80% util),64,256,350000,350000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,normal (<=80% util),65,260,350000,350000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,normal (<=80% util),66,264,350000,350000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,normal (<=80% util),67,268,350000,350000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,normal (<=80% util),68,272,350000,350000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,normal (<=80% util),69,276,350000,350000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,normal (<=80% util),70,280,350000,350000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,normal (<=80% util),71,284,350000,350000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,normal (<=80% util),72,288,350000,350000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,normal (<=80% util),73,292,350000,350000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,normal (<=80% util),74,296,350000,350000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,normal (<=80% util),75,300,350000,350000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,normal (<=80% util),76,304,350000,350000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,normal (<=80% util),77,308,350000,350000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,normal (<=80% util),78,312,350000,350000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,normal (<=80% util),79,316,350000,350000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,normal (<=80% util),80,320,350000,350000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,normal (<=80% util),81,324,350000,350000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,normal (<=80% util),82,328,350000,350000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,normal (<=80% util),83,332,350000,350000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,normal (<=80% util),84,336,350000,350000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,normal (<=80% util),0,0,800000,200000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,normal (<=80% util),1,4,800000,200000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,normal (<=80% util),2,8,800000,200000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,normal (<=80% util),3,12,800000,200000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,normal (<=80% util),4,16,800000,200000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,normal (<=80% util),5,20,800000,200000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,normal (<=80% util),6,24,800000,200000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,normal (<=80% util),7,28,800000,200000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,normal (<=80% util),8,32,800000,200000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,normal (<=80% util),9,36,800000,200000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,normal (<=80% util),10,40,800000,200000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,normal (<=80% util),11,44,800000,200000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,normal (<=80% util),12,48,800000,200000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,normal (<=80% util),13,52,800000,200000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,normal (<=80% util),14,56,800000,200000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,normal (<=80% util),15,60,800000,200000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,normal (<=80% util),16,64,800000,200000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,normal (<=80% util),17,68,800000,200000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,normal (<=80% util),18,72,800000,200000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,normal (<=80% util),19,76,800000,200000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,normal (<=80% util),20,80,800000,200000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,normal (<=80% util),21,84,800000,200000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,normal (<=80% util),22,88,800000,200000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,normal (<=80% util),23,92,800000,200000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,normal (<=80% util),24,96,800000,200000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,normal (<=80% util),25,100,800000,200000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,normal (<=80% util),26,104,800000,200000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,normal (<=80% util),27,108,800000,200000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,normal (<=80% util),28,112,800000,200000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,normal (<=80% util),29,116,800000,200000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,normal (<=80% util),30,120,800000,200000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,normal (<=80% util),31,124,800000,200000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,normal (<=80% util),32,128,800000,200000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,normal (<=80% util),33,132,800000,200000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,normal (<=80% util),34,136,800000,200000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,normal (<=80% util),35,140,800000,200000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,normal (<=80% util),36,144,800000,200000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,normal (<=80% util),37,148,800000,200000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,normal (<=80% util),38,152,800000,200000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,normal (<=80% util),39,156,800000,200000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,normal (<=80% util),40,160,800000,200000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,normal (<=80% util),41,164,800000,200000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,normal (<=80% util),42,168,780000,200000,580000,20000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,normal (<=80% util),43,172,760000,200000,560000,40000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,normal (<=80% util),44,176,740000,200000,540000,60000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,normal (<=80% util),45,180,720000,200000,520000,80000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,normal (<=80% util),46,184,700000,200000,500000,100000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,normal (<=80% util),47,188,680000,200000,480000,120000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,normal (<=80% util),48,192,660000,200000,460000,140000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,normal (<=80% util),49,196,640000,200000,440000,160000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,normal (<=80% util),50,200,620000,200000,420000,180000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,normal (<=80% util),51,204,600000,200000,400000,200000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,normal (<=80% util),52,208,580000,200000,380000,220000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,normal (<=80% util),53,212,560000,200000,360000,240000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,normal (<=80% util),54,216,540000,200000,340000,260000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,normal (<=80% util),55,220,520000,200000,320000,280000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,normal (<=80% util),56,224,500000,200000,300000,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,normal (<=80% util),57,228,480000,200000,280000,320000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,normal (<=80% util),58,232,460000,200000,260000,340000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,normal (<=80% util),59,236,440000,200000,240000,360000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,normal (<=80% util),60,240,420000,200000,220000,380000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,normal (<=80% util),61,244,400000,200000,200000,400000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,normal (<=80% util),62,248,380000,200000,180000,420000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,normal (<=80% util),63,252,360000,200000,160000,440000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,normal (<=80% util),64,256,340000,200000,140000,460000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,normal (<=80% util),65,260,320000,200000,120000,480000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,normal (<=80% util),66,264,300000,200000,100000,500000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,normal (<=80% util),67,268,280000,200000,80000,520000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,normal (<=80% util),68,272,260000,200000,60000,540000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,normal (<=80% util),69,276,240000,200000,40000,560000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,normal (<=80% util),70,280,220000,200000,20000,580000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,normal (<=80% util),71,284,200000,200000,0,600000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,normal (<=80% util),72,288,200000,200000,0,600000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,normal (<=80% util),73,292,200000,200000,0,600000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,normal (<=80% util),74,296,200000,200000,0,600000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,normal (<=80% util),75,300,200000,200000,0,600000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,normal (<=80% util),76,304,200000,200000,0,600000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,normal (<=80% util),77,308,200000,200000,0,600000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,normal (<=80% util),78,312,200000,200000,0,600000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,normal (<=80% util),79,316,200000,200000,0,600000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,normal (<=80% util),80,320,200000,200000,0,600000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,normal (<=80% util),81,324,200000,200000,0,600000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,normal (<=80% util),82,328,200000,200000,0,600000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,normal (<=80% util),83,332,200000,200000,0,600000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,normal (<=80% util),84,336,200000,200000,0,600000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,95% util,0,0,505000,495000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,95% util,1,4,510000,490000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,95% util,2,8,515000,485000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,95% util,3,12,520000,480000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,95% util,4,16,525000,475000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,95% util,5,20,530000,470000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,95% util,6,24,535000,465000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,95% util,7,28,540000,460000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,95% util,8,32,545000,455000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,95% util,9,36,550000,450000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,95% util,10,40,555000,445000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,95% util,11,44,560000,440000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,95% util,12,48,565000,435000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,95% util,13,52,570000,430000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,95% util,14,56,575000,425000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,95% util,15,60,580000,420000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,95% util,16,64,585000,415000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,95% util,17,68,590000,410000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,95% util,18,72,595000,405000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,95% util,19,76,600000,400000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,95% util,20,80,605000,395000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,95% util,21,84,610000,390000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,95% util,22,88,615000,385000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,95% util,23,92,620000,380000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,95% util,24,96,625000,375000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,95% util,25,100,630000,370000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,95% util,26,104,635000,365000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,95% util,27,108,640000,360000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,95% util,28,112,645000,355000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,95% util,29,116,650000,350000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,95% util,30,120,650000,350000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,95% util,31,124,650000,350000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,95% util,32,128,650000,350000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,95% util,33,132,650000,350000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,95% util,34,136,650000,350000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,95% util,35,140,650000,350000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,95% util,36,144,650000,350000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,95% util,37,148,650000,350000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,95% util,38,152,650000,350000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,95% util,39,156,650000,350000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,95% util,40,160,650000,350000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,95% util,41,164,650000,350000,300000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,95% util,42,168,630000,350000,280000,20000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,95% util,43,172,610000,350000,260000,40000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,95% util,44,176,590000,350000,240000,60000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,95% util,45,180,570000,350000,220000,80000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,95% util,46,184,550000,350000,200000,100000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,95% util,47,188,530000,350000,180000,120000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,95% util,48,192,510000,350000,160000,140000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,95% util,49,196,490000,350000,140000,160000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,95% util,50,200,470000,350000,120000,180000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,95% util,51,204,450000,350000,100000,200000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,95% util,52,208,430000,350000,80000,220000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,95% util,53,212,410000,350000,60000,240000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,95% util,54,216,390000,350000,40000,260000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,95% util,55,220,370000,350000,20000,280000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,95% util,56,224,350000,350000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,95% util,57,228,350000,350000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,95% util,58,232,350000,350000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,95% util,59,236,350000,350000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,95% util,60,240,350000,350000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,95% util,61,244,350000,350000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,95% util,62,248,350000,350000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,95% util,63,252,350000,350000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,95% util,64,256,350000,350000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,95% util,65,260,350000,350000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,95% util,66,264,350000,350000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,95% util,67,268,350000,350000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,95% util,68,272,350000,350000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,95% util,69,276,350000,350000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,95% util,70,280,350000,350000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,95% util,71,284,350000,350000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,95% util,72,288,350000,350000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,95% util,73,292,350000,350000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,95% util,74,296,350000,350000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,95% util,75,300,350000,350000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,95% util,76,304,350000,350000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,95% util,77,308,350000,350000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,95% util,78,312,350000,350000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,95% util,79,316,350000,350000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,95% util,80,320,350000,350000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,95% util,81,324,350000,350000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,95% util,82,328,350000,350000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,95% util,83,332,350000,350000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,30,95% util,84,336,350000,350000,0,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,95% util,0,0,505000,495000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,95% util,1,4,510000,490000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,95% util,2,8,515000,485000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,95% util,3,12,520000,480000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,95% util,4,16,525000,475000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,95% util,5,20,530000,470000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,95% util,6,24,535000,465000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,95% util,7,28,540000,460000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,95% util,8,32,545000,455000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,95% util,9,36,550000,450000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,95% util,10,40,555000,445000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,95% util,11,44,560000,440000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,95% util,12,48,565000,435000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,95% util,13,52,570000,430000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,95% util,14,56,575000,425000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,95% util,15,60,580000,420000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,95% util,16,64,585000,415000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,95% util,17,68,590000,410000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,95% util,18,72,595000,405000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,95% util,19,76,600000,400000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,95% util,20,80,605000,395000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,95% util,21,84,610000,390000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,95% util,22,88,615000,385000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,95% util,23,92,620000,380000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,95% util,24,96,625000,375000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,95% util,25,100,630000,370000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,95% util,26,104,635000,365000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,95% util,27,108,640000,360000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,95% util,28,112,645000,355000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,95% util,29,116,650000,350000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,95% util,30,120,655000,345000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,95% util,31,124,660000,340000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,95% util,32,128,665000,335000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,95% util,33,132,670000,330000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,95% util,34,136,675000,325000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,95% util,35,140,680000,320000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,95% util,36,144,685000,315000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,95% util,37,148,690000,310000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,95% util,38,152,695000,305000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,95% util,39,156,700000,300000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,95% util,40,160,705000,295000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,95% util,41,164,710000,290000,600000,0
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,95% util,42,168,695000,285000,580000,20000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,95% util,43,172,680000,280000,560000,40000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,95% util,44,176,665000,275000,540000,60000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,95% util,45,180,650000,270000,520000,80000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,95% util,46,184,635000,265000,500000,100000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,95% util,47,188,620000,260000,480000,120000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,95% util,48,192,605000,255000,460000,140000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,95% util,49,196,590000,250000,440000,160000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,95% util,50,200,575000,245000,420000,180000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,95% util,51,204,560000,240000,400000,200000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,95% util,52,208,545000,235000,380000,220000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,95% util,53,212,530000,230000,360000,240000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,95% util,54,216,515000,225000,340000,260000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,95% util,55,220,500000,220000,320000,280000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,95% util,56,224,485000,215000,300000,300000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,95% util,57,228,470000,210000,280000,320000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,95% util,58,232,455000,205000,260000,340000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,95% util,59,236,440000,200000,240000,360000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,95% util,60,240,420000,200000,220000,380000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,95% util,61,244,400000,200000,200000,400000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,95% util,62,248,380000,200000,180000,420000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,95% util,63,252,360000,200000,160000,440000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,95% util,64,256,340000,200000,140000,460000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,95% util,65,260,320000,200000,120000,480000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,95% util,66,264,300000,200000,100000,500000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,95% util,67,268,280000,200000,80000,520000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,95% util,68,272,260000,200000,60000,540000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,95% util,69,276,240000,200000,40000,560000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,95% util,70,280,220000,200000,20000,580000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,95% util,71,284,200000,200000,0,600000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,95% util,72,288,200000,200000,0,600000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,95% util,73,292,200000,200000,0,600000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,95% util,74,296,200000,200000,0,600000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,95% util,75,300,200000,200000,0,600000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,95% util,76,304,200000,200000,0,600000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,95% util,77,308,200000,200000,0,600000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,95% util,78,312,200000,200000,0,600000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,95% util,79,316,200000,200000,0,600000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,95% util,80,320,200000,200000,0,600000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,95% util,81,324,200000,200000,0,600000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,95% util,82,328,200000,200000,0,600000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,95% util,83,332,200000,200000,0,600000
+"v1: 7d unbond, 2%/cycle cap, FIFO",50,60,95% util,84,336,200000,200000,0,600000
+"v0: instant, no cap",80,30,normal (<=80% util),0,0,140000,560000,0,300000
+"v0: instant, no cap",80,30,normal (<=80% util),1,4,140000,560000,0,300000
+"v0: instant, no cap",80,30,normal (<=80% util),2,8,140000,560000,0,300000
+"v0: instant, no cap",80,30,normal (<=80% util),3,12,140000,560000,0,300000
+"v0: instant, no cap",80,30,normal (<=80% util),4,16,140000,560000,0,300000
+"v0: instant, no cap",80,30,normal (<=80% util),5,20,140000,560000,0,300000
+"v0: instant, no cap",80,30,normal (<=80% util),6,24,140000,560000,0,300000
+"v0: instant, no cap",80,30,normal (<=80% util),7,28,140000,560000,0,300000
+"v0: instant, no cap",80,30,normal (<=80% util),8,32,140000,560000,0,300000
+"v0: instant, no cap",80,30,normal (<=80% util),9,36,140000,560000,0,300000
+"v0: instant, no cap",80,30,normal (<=80% util),10,40,140000,560000,0,300000
+"v0: instant, no cap",80,30,normal (<=80% util),11,44,140000,560000,0,300000
+"v0: instant, no cap",80,30,normal (<=80% util),12,48,140000,560000,0,300000
+"v0: instant, no cap",80,30,normal (<=80% util),13,52,140000,560000,0,300000
+"v0: instant, no cap",80,30,normal (<=80% util),14,56,140000,560000,0,300000
+"v0: instant, no cap",80,30,normal (<=80% util),15,60,140000,560000,0,300000
+"v0: instant, no cap",80,30,normal (<=80% util),16,64,140000,560000,0,300000
+"v0: instant, no cap",80,30,normal (<=80% util),17,68,140000,560000,0,300000
+"v0: instant, no cap",80,30,normal (<=80% util),18,72,140000,560000,0,300000
+"v0: instant, no cap",80,30,normal (<=80% util),19,76,140000,560000,0,300000
+"v0: instant, no cap",80,30,normal (<=80% util),20,80,140000,560000,0,300000
+"v0: instant, no cap",80,30,normal (<=80% util),21,84,140000,560000,0,300000
+"v0: instant, no cap",80,30,normal (<=80% util),22,88,140000,560000,0,300000
+"v0: instant, no cap",80,30,normal (<=80% util),23,92,140000,560000,0,300000
+"v0: instant, no cap",80,30,normal (<=80% util),24,96,140000,560000,0,300000
+"v0: instant, no cap",80,30,normal (<=80% util),25,100,140000,560000,0,300000
+"v0: instant, no cap",80,30,normal (<=80% util),26,104,140000,560000,0,300000
+"v0: instant, no cap",80,30,normal (<=80% util),27,108,140000,560000,0,300000
+"v0: instant, no cap",80,30,normal (<=80% util),28,112,140000,560000,0,300000
+"v0: instant, no cap",80,30,normal (<=80% util),29,116,140000,560000,0,300000
+"v0: instant, no cap",80,30,normal (<=80% util),30,120,140000,560000,0,300000
+"v0: instant, no cap",80,30,normal (<=80% util),31,124,140000,560000,0,300000
+"v0: instant, no cap",80,30,normal (<=80% util),32,128,140000,560000,0,300000
+"v0: instant, no cap",80,30,normal (<=80% util),33,132,140000,560000,0,300000
+"v0: instant, no cap",80,30,normal (<=80% util),34,136,140000,560000,0,300000
+"v0: instant, no cap",80,30,normal (<=80% util),35,140,140000,560000,0,300000
+"v0: instant, no cap",80,30,normal (<=80% util),36,144,140000,560000,0,300000
+"v0: instant, no cap",80,30,normal (<=80% util),37,148,140000,560000,0,300000
+"v0: instant, no cap",80,30,normal (<=80% util),38,152,140000,560000,0,300000
+"v0: instant, no cap",80,30,normal (<=80% util),39,156,140000,560000,0,300000
+"v0: instant, no cap",80,30,normal (<=80% util),40,160,140000,560000,0,300000
+"v0: instant, no cap",80,30,normal (<=80% util),41,164,140000,560000,0,300000
+"v0: instant, no cap",80,30,normal (<=80% util),42,168,140000,560000,0,300000
+"v0: instant, no cap",80,30,normal (<=80% util),43,172,140000,560000,0,300000
+"v0: instant, no cap",80,30,normal (<=80% util),44,176,140000,560000,0,300000
+"v0: instant, no cap",80,30,normal (<=80% util),45,180,140000,560000,0,300000
+"v0: instant, no cap",80,30,normal (<=80% util),46,184,140000,560000,0,300000
+"v0: instant, no cap",80,30,normal (<=80% util),47,188,140000,560000,0,300000
+"v0: instant, no cap",80,30,normal (<=80% util),48,192,140000,560000,0,300000
+"v0: instant, no cap",80,30,normal (<=80% util),49,196,140000,560000,0,300000
+"v0: instant, no cap",80,30,normal (<=80% util),50,200,140000,560000,0,300000
+"v0: instant, no cap",80,30,normal (<=80% util),51,204,140000,560000,0,300000
+"v0: instant, no cap",80,30,normal (<=80% util),52,208,140000,560000,0,300000
+"v0: instant, no cap",80,30,normal (<=80% util),53,212,140000,560000,0,300000
+"v0: instant, no cap",80,30,normal (<=80% util),54,216,140000,560000,0,300000
+"v0: instant, no cap",80,30,normal (<=80% util),55,220,140000,560000,0,300000
+"v0: instant, no cap",80,30,normal (<=80% util),56,224,140000,560000,0,300000
+"v0: instant, no cap",80,30,normal (<=80% util),57,228,140000,560000,0,300000
+"v0: instant, no cap",80,30,normal (<=80% util),58,232,140000,560000,0,300000
+"v0: instant, no cap",80,30,normal (<=80% util),59,236,140000,560000,0,300000
+"v0: instant, no cap",80,30,normal (<=80% util),60,240,140000,560000,0,300000
+"v0: instant, no cap",80,30,normal (<=80% util),61,244,140000,560000,0,300000
+"v0: instant, no cap",80,30,normal (<=80% util),62,248,140000,560000,0,300000
+"v0: instant, no cap",80,30,normal (<=80% util),63,252,140000,560000,0,300000
+"v0: instant, no cap",80,30,normal (<=80% util),64,256,140000,560000,0,300000
+"v0: instant, no cap",80,30,normal (<=80% util),65,260,140000,560000,0,300000
+"v0: instant, no cap",80,30,normal (<=80% util),66,264,140000,560000,0,300000
+"v0: instant, no cap",80,30,normal (<=80% util),67,268,140000,560000,0,300000
+"v0: instant, no cap",80,30,normal (<=80% util),68,272,140000,560000,0,300000
+"v0: instant, no cap",80,30,normal (<=80% util),69,276,140000,560000,0,300000
+"v0: instant, no cap",80,30,normal (<=80% util),70,280,140000,560000,0,300000
+"v0: instant, no cap",80,30,normal (<=80% util),71,284,140000,560000,0,300000
+"v0: instant, no cap",80,30,normal (<=80% util),72,288,140000,560000,0,300000
+"v0: instant, no cap",80,30,normal (<=80% util),73,292,140000,560000,0,300000
+"v0: instant, no cap",80,30,normal (<=80% util),74,296,140000,560000,0,300000
+"v0: instant, no cap",80,30,normal (<=80% util),75,300,140000,560000,0,300000
+"v0: instant, no cap",80,30,normal (<=80% util),76,304,140000,560000,0,300000
+"v0: instant, no cap",80,30,normal (<=80% util),77,308,140000,560000,0,300000
+"v0: instant, no cap",80,30,normal (<=80% util),78,312,140000,560000,0,300000
+"v0: instant, no cap",80,30,normal (<=80% util),79,316,140000,560000,0,300000
+"v0: instant, no cap",80,30,normal (<=80% util),80,320,140000,560000,0,300000
+"v0: instant, no cap",80,30,normal (<=80% util),81,324,140000,560000,0,300000
+"v0: instant, no cap",80,30,normal (<=80% util),82,328,140000,560000,0,300000
+"v0: instant, no cap",80,30,normal (<=80% util),83,332,140000,560000,0,300000
+"v0: instant, no cap",80,30,normal (<=80% util),84,336,140000,560000,0,300000
+"v0: instant, no cap",80,30,95% util,0,0,0,795000,95000,205000
+"v0: instant, no cap",80,30,95% util,1,4,0,790000,90000,210000
+"v0: instant, no cap",80,30,95% util,2,8,0,785000,85000,215000
+"v0: instant, no cap",80,30,95% util,3,12,0,780000,80000,220000
+"v0: instant, no cap",80,30,95% util,4,16,0,775000,75000,225000
+"v0: instant, no cap",80,30,95% util,5,20,0,770000,70000,230000
+"v0: instant, no cap",80,30,95% util,6,24,0,765000,65000,235000
+"v0: instant, no cap",80,30,95% util,7,28,0,760000,60000,240000
+"v0: instant, no cap",80,30,95% util,8,32,0,755000,55000,245000
+"v0: instant, no cap",80,30,95% util,9,36,0,750000,50000,250000
+"v0: instant, no cap",80,30,95% util,10,40,0,745000,45000,255000
+"v0: instant, no cap",80,30,95% util,11,44,0,740000,40000,260000
+"v0: instant, no cap",80,30,95% util,12,48,0,735000,35000,265000
+"v0: instant, no cap",80,30,95% util,13,52,0,730000,30000,270000
+"v0: instant, no cap",80,30,95% util,14,56,0,725000,25000,275000
+"v0: instant, no cap",80,30,95% util,15,60,0,720000,20000,280000
+"v0: instant, no cap",80,30,95% util,16,64,0,715000,15000,285000
+"v0: instant, no cap",80,30,95% util,17,68,0,710000,10000,290000
+"v0: instant, no cap",80,30,95% util,18,72,0,705000,5000,295000
+"v0: instant, no cap",80,30,95% util,19,76,0,700000,0,300000
+"v0: instant, no cap",80,30,95% util,20,80,5000,695000,0,300000
+"v0: instant, no cap",80,30,95% util,21,84,10000,690000,0,300000
+"v0: instant, no cap",80,30,95% util,22,88,15000,685000,0,300000
+"v0: instant, no cap",80,30,95% util,23,92,20000,680000,0,300000
+"v0: instant, no cap",80,30,95% util,24,96,25000,675000,0,300000
+"v0: instant, no cap",80,30,95% util,25,100,30000,670000,0,300000
+"v0: instant, no cap",80,30,95% util,26,104,35000,665000,0,300000
+"v0: instant, no cap",80,30,95% util,27,108,40000,660000,0,300000
+"v0: instant, no cap",80,30,95% util,28,112,45000,655000,0,300000
+"v0: instant, no cap",80,30,95% util,29,116,50000,650000,0,300000
+"v0: instant, no cap",80,30,95% util,30,120,55000,645000,0,300000
+"v0: instant, no cap",80,30,95% util,31,124,60000,640000,0,300000
+"v0: instant, no cap",80,30,95% util,32,128,65000,635000,0,300000
+"v0: instant, no cap",80,30,95% util,33,132,70000,630000,0,300000
+"v0: instant, no cap",80,30,95% util,34,136,75000,625000,0,300000
+"v0: instant, no cap",80,30,95% util,35,140,80000,620000,0,300000
+"v0: instant, no cap",80,30,95% util,36,144,85000,615000,0,300000
+"v0: instant, no cap",80,30,95% util,37,148,90000,610000,0,300000
+"v0: instant, no cap",80,30,95% util,38,152,95000,605000,0,300000
+"v0: instant, no cap",80,30,95% util,39,156,100000,600000,0,300000
+"v0: instant, no cap",80,30,95% util,40,160,105000,595000,0,300000
+"v0: instant, no cap",80,30,95% util,41,164,110000,590000,0,300000
+"v0: instant, no cap",80,30,95% util,42,168,115000,585000,0,300000
+"v0: instant, no cap",80,30,95% util,43,172,120000,580000,0,300000
+"v0: instant, no cap",80,30,95% util,44,176,125000,575000,0,300000
+"v0: instant, no cap",80,30,95% util,45,180,130000,570000,0,300000
+"v0: instant, no cap",80,30,95% util,46,184,135000,565000,0,300000
+"v0: instant, no cap",80,30,95% util,47,188,140000,560000,0,300000
+"v0: instant, no cap",80,30,95% util,48,192,140000,560000,0,300000
+"v0: instant, no cap",80,30,95% util,49,196,140000,560000,0,300000
+"v0: instant, no cap",80,30,95% util,50,200,140000,560000,0,300000
+"v0: instant, no cap",80,30,95% util,51,204,140000,560000,0,300000
+"v0: instant, no cap",80,30,95% util,52,208,140000,560000,0,300000
+"v0: instant, no cap",80,30,95% util,53,212,140000,560000,0,300000
+"v0: instant, no cap",80,30,95% util,54,216,140000,560000,0,300000
+"v0: instant, no cap",80,30,95% util,55,220,140000,560000,0,300000
+"v0: instant, no cap",80,30,95% util,56,224,140000,560000,0,300000
+"v0: instant, no cap",80,30,95% util,57,228,140000,560000,0,300000
+"v0: instant, no cap",80,30,95% util,58,232,140000,560000,0,300000
+"v0: instant, no cap",80,30,95% util,59,236,140000,560000,0,300000
+"v0: instant, no cap",80,30,95% util,60,240,140000,560000,0,300000
+"v0: instant, no cap",80,30,95% util,61,244,140000,560000,0,300000
+"v0: instant, no cap",80,30,95% util,62,248,140000,560000,0,300000
+"v0: instant, no cap",80,30,95% util,63,252,140000,560000,0,300000
+"v0: instant, no cap",80,30,95% util,64,256,140000,560000,0,300000
+"v0: instant, no cap",80,30,95% util,65,260,140000,560000,0,300000
+"v0: instant, no cap",80,30,95% util,66,264,140000,560000,0,300000
+"v0: instant, no cap",80,30,95% util,67,268,140000,560000,0,300000
+"v0: instant, no cap",80,30,95% util,68,272,140000,560000,0,300000
+"v0: instant, no cap",80,30,95% util,69,276,140000,560000,0,300000
+"v0: instant, no cap",80,30,95% util,70,280,140000,560000,0,300000
+"v0: instant, no cap",80,30,95% util,71,284,140000,560000,0,300000
+"v0: instant, no cap",80,30,95% util,72,288,140000,560000,0,300000
+"v0: instant, no cap",80,30,95% util,73,292,140000,560000,0,300000
+"v0: instant, no cap",80,30,95% util,74,296,140000,560000,0,300000
+"v0: instant, no cap",80,30,95% util,75,300,140000,560000,0,300000
+"v0: instant, no cap",80,30,95% util,76,304,140000,560000,0,300000
+"v0: instant, no cap",80,30,95% util,77,308,140000,560000,0,300000
+"v0: instant, no cap",80,30,95% util,78,312,140000,560000,0,300000
+"v0: instant, no cap",80,30,95% util,79,316,140000,560000,0,300000
+"v0: instant, no cap",80,30,95% util,80,320,140000,560000,0,300000
+"v0: instant, no cap",80,30,95% util,81,324,140000,560000,0,300000
+"v0: instant, no cap",80,30,95% util,82,328,140000,560000,0,300000
+"v0: instant, no cap",80,30,95% util,83,332,140000,560000,0,300000
+"v0: instant, no cap",80,30,95% util,84,336,140000,560000,0,300000

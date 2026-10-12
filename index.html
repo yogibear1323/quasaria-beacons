@@ -1,0 +1,85 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Quasaria Beacons · concept playground</title><meta name="description" content="Quasaria Beacons concept playground. Concept, not deployed, illustrative.">
+<link rel="stylesheet" href="quasar.css"><link rel="stylesheet" href="style.css"></head><body>
+<div class="banner">Concept · not deployed · illustrative. Nothing here is a guaranteed return, and nothing connects to a wallet or sends a transaction.</div>
+<nav class="top" aria-label="Sections"><b>Beacons</b><a href="#tiers">Tiers</a><a href="#blend">Blend pool</a><a href="#fees">Fee split</a><a href="#rewards">Rewards</a><a href="#peg">Peg monitor</a><a href="#unbond">Unbonding</a><a href="#routing">Routing</a><a href="#sim">Simulator</a><a href="https://github.com/yogibear1323/quasaria-beacons">GitHub</a></nav>
+<header class="hero">
+  <div class="qz qz-lg" aria-hidden="true"><div class="qz-haze"></div><svg class="qz-stars" id="stars" viewBox="0 0 1000 600" preserveAspectRatio="xMidYMid slice"></svg>
+    <div class="qz-obj"><svg class="qz-jets" viewBox="0 0 200 600"><defs><linearGradient id="qzJetU" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#a5f3fc" stop-opacity=".55"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></linearGradient><linearGradient id="qzJetD" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#c4b5fd" stop-opacity=".45"/><stop offset="1" stop-color="#8b7cff" stop-opacity="0"/></linearGradient></defs><path d="M100 300 L92 0 L108 0 Z" fill="url(#qzJetU)"/><path d="M100 300 L93 600 L107 600 Z" fill="url(#qzJetD)"/></svg>
+      <div class="qz-halo"></div><div class="qz-tilt"><div class="qz-spin"><svg viewBox="0 0 400 400"><defs><linearGradient id="qzDisk" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8b7cff"/><stop offset=".55" stop-color="#6d4aff"/><stop offset="1" stop-color="#22d3ee"/></linearGradient></defs><circle cx="200" cy="200" r="190" fill="none" stroke="url(#qzDisk)" stroke-width="3" opacity=".35" stroke-dasharray="60 22 8 30"/><circle cx="200" cy="200" r="160" fill="none" stroke="url(#qzDisk)" stroke-width="18" opacity=".28"/><circle cx="200" cy="200" r="132" fill="none" stroke="url(#qzDisk)" stroke-width="10" opacity=".55" stroke-dasharray="140 18 40 12"/><circle cx="200" cy="200" r="108" fill="none" stroke="#a5f3fc" stroke-width="4" opacity=".7" stroke-dasharray="90 30 20 40"/><circle cx="200" cy="200" r="86" fill="none" stroke="#e9e6ff" stroke-width="2" opacity=".55"/></svg></div></div><div class="qz-core"></div></div>
+    <div class="qz-scrim"></div></div>
+  <div class="copy"><span class="pill">Concept</span><span class="pill">Not deployed</span><span class="pill">Illustrative</span>
+    <h1>Quasaria Beacons</h1><p>Lock QFX into one of six tiers and share real protocol revenue, paid in XLM every 4 hours. Every QFX earns the same share; tiers unlock perks. Play with the numbers below. Rates are variable and not guaranteed.</p>
+    <p><a href="#sim">Open the simulator →</a></p></div>
+</header>
+<main>
+<section id="tiers"><h2>Tiers, priced in QFX</h2><p class="sub">QFX is pegged 1:1 to XLM and fully backed. Tier weight is flat (1.00) in every tier, so the same QFX with the same lock earns the same share. Tiers unlock perks only. Optional lock boosts are open to everyone.</p>
+<div class="grid" id="tierGrid"></div>
+<p class="muted">Lock boost (any tier): none 1.00× · 30 days 1.10× · 90 days 1.25×. Perks also include Constellation XP and tier visuals. No per-wallet reward cap at launch.</p></section>
+
+<section id="blend"><h2>Blend pool choice</h2><p class="sub">40% of staked value (range 30–50%) is supplied to a Blend lending pool; 60% stays as a cash buffer for exits.</p>
+<div class="seg" role="group" aria-label="Blend pool"><button id="pXLM" aria-pressed="true">XLM pool (default)</button><button id="pUSDC" aria-pressed="false">USDC pool (alternative)</button></div>
+<div class="card" style="margin-top:12px" id="poolNote"></div>
+<p class="muted">Live-rate caveat: Blend's XLM supply rate is variable. It was about 0.02% on a 30-day average and under 0.01% spot (DefiLlama, Oct 11, 2026), versus ~9% including emissions earlier in 2026. The simulator defaults to 0.5%, an illustrative base case. At today's rates almost all Beacons yield (~96%) comes from trading fees.</p></section>
+
+<section id="fees"><h2>Fee split</h2><p class="sub">The fee router splits trading fees on every cycle.</p>
+<div class="bar" role="img" aria-label="40% stakers, 10% insurance, 50% operations"><div style="width:40%;background:#22d3ee">40% stakers</div><div style="width:10%;background:#fbbf24">10%</div><div style="width:50%;background:#8b7cff">50% operations</div></div>
+<p class="muted">40% to the Beacons reward reserve · 10% to the insurance fund · 50% to operations/treasury. Open decision: whether 40% means 40% of every swap fee (what the simulations assume) or 40% of Quasaria's own cut after liquidity providers are paid. If it's the protocol cut, every rate here is lower.</p></section>
+
+<section id="rewards"><h2>Reward schedule</h2><p class="sub">Revenue flows into a reserve. Each 4-hour cycle pays out a slice of it, so payouts are smooth and never jump.</p>
+<div class="grid">
+<div class="card"><h3>1/42 every 4 hours</h3><p>Each cycle pays out 1/42 of the reserve (≈ 7 days of smoothing), shared by weight. Claim anytime or let the keeper auto-claim daily.</p></div>
+<div class="card"><h3>25% APR cap</h3><p>A cycle never pays more than 25% a year on staked value (25% × staked ÷ 2,190). Anything above the cap stays in the reserve.</p></div>
+<div class="card"><h3>30-day overflow rule</h3><p>Reserve above 30 days of payouts flows to <b>insurance</b> (until it holds 5% of the Blend deployment), then to <b>buyback/treasury</b>.</p></div>
+</div></section>
+
+<section id="peg"><h2>Peg monitor</h2><p class="sub">If QFX drifts more than 1% from XLM, new stakes and tier upgrades pause automatically. Claims and exits keep working.</p>
+<div class="card"><label>QFX price in XLM <output id="pegOut"></output><input type="range" id="peg" min="0.97" max="1.03" step="0.001" value="1"></label><p id="pegState" class="big"></p></div></section>
+
+<section id="unbond"><h2>Unbonding rules</h2>
+<div class="card"><ul class="rules">
+<li><b>7-day unbonding</b> (42 cycles). No rewards while unbonding. The keeper pulls XLM back from Blend during this window.</li>
+<li><b>Exit cap:</b> at most 2% of staked value is released per 4-hour cycle (12% a day).</li>
+<li><b>FIFO queue:</b> first in, first out, with your position and ETA shown. Exits are never paid from other stakers' rewards.</li>
+<li><b>One-epoch warm-up:</b> new stake starts earning after one full 4-hour cycle.</li>
+<li><b>After an uncovered Blend loss:</b> a pro-rata haircut applies to every exit, so leaving first gives no advantage.</li>
+<li><b>If QFX minting is paused:</b> exits are paid in XLM until it resumes (redeeming can never be paused).</li></ul></div></section>
+
+<section id="routing"><h2>How staked QFX reaches Blend (Option B)</h2><p class="sub">The vault redeems your QFX for XLM 1:1 (burning it), lends 40% on Blend's XLM pool, keeps 60% as a buffer, and mints fresh QFX 1:1 for you on exit. The QFX peg reserve stays fully backed for all circulating QFX.</p>
+<div class="card"><svg class="flow" viewBox="0 0 900 300" role="img" aria-label="Routing flow diagram">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#a9a4c4"/></marker></defs>
+<g font-size="14" fill="#ecebf5" text-anchor="middle">
+<rect x="10" y="110" width="140" height="70" rx="12" fill="#221e33" stroke="#40386a"/><text x="80" y="140">Staker</text><text x="80" y="160" fill="#a9a4c4" font-size="12">stakes QFX</text>
+<rect x="210" y="110" width="170" height="70" rx="12" fill="#221e33" stroke="#22d3ee"/><text x="295" y="140">Beacon vault</text><text x="295" y="160" fill="#a9a4c4" font-size="12">redeem 1:1 (burns QFX)</text>
+<rect x="210" y="10" width="170" height="60" rx="12" fill="#221e33" stroke="#40386a"/><text x="295" y="36">QFX contract</text><text x="295" y="55" fill="#a9a4c4" font-size="12">XLM ≥ supply, always</text>
+<rect x="450" y="30" width="190" height="70" rx="12" fill="#221e33" stroke="#8b7cff"/><text x="545" y="60">Blend XLM pool</text><text x="545" y="80" fill="#a9a4c4" font-size="12">40% of staked XLM</text>
+<rect x="450" y="190" width="190" height="70" rx="12" fill="#221e33" stroke="#40386a"/><text x="545" y="220">Cash buffer</text><text x="545" y="240" fill="#a9a4c4" font-size="12">60%, pays exits</text>
+<rect x="700" y="110" width="190" height="70" rx="12" fill="#221e33" stroke="#fbbf24"/><text x="795" y="140">Insurance fund</text><text x="795" y="160" fill="#a9a4c4" font-size="12">covers Blend losses first</text></g>
+<g stroke="#a9a4c4" fill="none" marker-end="url(#ar)"><path d="M150 145H205"/><path d="M295 110V75"/><path d="M380 130L445 75"/><path d="M380 160L445 215"/><path d="M640 65L700 125"/></g>
+<text x="450" y="292" text-anchor="middle" fill="#a9a4c4" font-size="12">Exit: after 7-day unbonding the vault pulls XLM back and mints fresh QFX 1:1 to the staker.</text></svg>
+<p class="muted">Why not Option A (lending the peg reserve's own XLM)? It would need a risky QFX contract upgrade, break the built-in backing check, and put Blend risk on every QFX holder instead of only stakers who opted in.</p></div></section>
+
+<section id="sim"><h2>Simulator</h2><p class="sub">Same formulas as <code>docs/sim/sim.py</code> (reserve, 1/42 release, 25% cap, 30-day overflow). Illustrative only, not a guaranteed return. Other stakers are assumed at weight 1.00.</p>
+<div class="card"><div class="ctrl">
+<label>Daily trading fees (XLM) <output id="oFees"></output><input type="range" id="fees" min="0" max="3000" step="10" value="300"></label>
+<label>Total staked (QFX) <output id="oTvl"></output><input type="range" id="tvl" min="100000" max="10000000" step="100000" value="1000000"></label>
+<label>Your stake (QFX) <input type="number" id="stake" min="100" step="100" value="10000"></label>
+<label>Lock length <select id="lock"><option value="none">None (1.00×)</option><option value="30d">30 days (1.10×)</option><option value="90d">90 days (1.25×)</option></select></label>
+<label>Blend supply rate (APR %) <output id="oRate"></output><input type="range" id="rate" min="0" max="10" step="0.1" value="0.5"></label>
+<label>Blend allocation (%) <output id="oAlloc"></output><input type="range" id="alloc" min="0" max="50" step="5" value="40"></label>
+<span class="toggle"><input type="checkbox" id="drought"><label for="drought" style="display:inline;color:var(--text)">Fee drought (zero fees, days 30–60)</label></span>
+<span class="toggle"><input type="checkbox" id="loss"><label for="loss" style="display:inline;color:var(--text)">Blend loss on day 45 (20% of deployed)</label></span>
+</div></div>
+<div class="grid" style="margin-top:14px">
+<div class="card"><div class="muted">Your estimated APR (90 days)</div><div class="big" id="rApr"></div><div class="muted" id="rAprNote"></div></div>
+<div class="card"><div class="muted">Your payout per 4-hour cycle</div><div class="big" id="rCycle"></div><div class="muted" id="rTier"></div></div>
+<div class="card"><div class="muted">vs 12% QFX holder yield (forgone while staked)</div><div class="big" id="rVs"></div><div class="muted" id="rBe"></div></div>
+<div class="card"><div class="muted">After 90 days</div><div id="rEnd" style="font-size:14px"></div></div>
+</div>
+<div class="card" style="margin-top:14px"><h3>Reserve, insurance and buyback over 90 days (XLM)</h3><svg class="chart" id="chart" viewBox="0 0 800 240" preserveAspectRatio="none" role="img" aria-label="Reserve level chart"></svg>
+<p class="muted"><span style="color:#22d3ee">■</span> reserve · <span style="color:#fbbf24">■</span> insurance · <span style="color:#8b7cff">■</span> buyback/treasury</p>
+<p class="muted" id="lossNote"></p></div>
+</section>
+</main>
+<div class="foot">Quasaria Beacons · concept · not deployed · illustrative. Variable rate, no guaranteed return. Not an offer. Read the <a href="https://github.com/yogibear1323/quasaria-beacons/tree/main/docs">write-up and deployment scope</a>.</div>
+<script src="sim.js"></script><script src="app.js"></script></body></html>
