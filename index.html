@@ -2,7 +2,7 @@
 <title>Quasaria Beacons · concept playground</title><meta name="description" content="Quasaria Beacons concept playground. Concept, not deployed, illustrative.">
 <link rel="stylesheet" href="quasar.css"><link rel="stylesheet" href="style.css"></head><body>
 <div class="banner">Concept · not deployed · illustrative. Nothing here is a guaranteed return, and nothing connects to a wallet or sends a transaction.</div>
-<nav class="top" aria-label="Sections"><b>Beacons</b><a href="#tiers">Tiers</a><a href="#blend">Blend pool</a><a href="#fees">Fee split</a><a href="#rewards">Rewards</a><a href="#peg">Peg monitor</a><a href="#unbond">Unbonding</a><a href="#routing">Routing</a><a href="#sim">Simulator</a><a href="https://github.com/yogibear1323/quasaria-beacons">GitHub</a></nav>
+<nav class="top" aria-label="Sections"><b>Beacons</b><a href="#tiers">Tiers</a><a href="#blend">Blend pool</a><a href="#split">Fee split</a><a href="#rewards">Rewards</a><a href="#pegmon">Peg monitor</a><a href="#unbond">Unbonding</a><a href="#routing">Routing</a><a href="#sim">Simulator</a><a href="https://github.com/yogibear1323/quasaria-beacons">GitHub</a></nav>
 <header class="hero">
   <div class="qz qz-lg" aria-hidden="true"><div class="qz-haze"></div><svg class="qz-stars" id="stars" viewBox="0 0 1000 600" preserveAspectRatio="xMidYMid slice"></svg>
     <div class="qz-obj"><svg class="qz-jets" viewBox="0 0 200 600"><defs><linearGradient id="qzJetU" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#a5f3fc" stop-opacity=".55"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></linearGradient><linearGradient id="qzJetD" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#c4b5fd" stop-opacity=".45"/><stop offset="1" stop-color="#8b7cff" stop-opacity="0"/></linearGradient></defs><path d="M100 300 L92 0 L108 0 Z" fill="url(#qzJetU)"/><path d="M100 300 L93 600 L107 600 Z" fill="url(#qzJetD)"/></svg>
@@ -22,7 +22,7 @@
 <div class="card" style="margin-top:12px" id="poolNote"></div>
 <p class="muted">Live-rate caveat: Blend's XLM supply rate is variable. It was about 0.02% on a 30-day average and under 0.01% spot (DefiLlama, Oct 11, 2026), versus ~9% including emissions earlier in 2026. The simulator defaults to 0.5%, an illustrative base case. At today's rates almost all Beacons yield (~96%) comes from trading fees.</p></section>
 
-<section id="fees"><h2>Fee split</h2><p class="sub">The fee router splits trading fees on every cycle.</p>
+<section id="split"><h2>Fee split</h2><p class="sub">The fee router splits trading fees on every cycle.</p>
 <div class="bar" role="img" aria-label="40% stakers, 10% insurance, 50% operations"><div style="width:40%;background:#22d3ee">40% stakers</div><div style="width:10%;background:#fbbf24">10%</div><div style="width:50%;background:#8b7cff">50% operations</div></div>
 <p class="muted">40% to the Beacons reward reserve · 10% to the insurance fund · 50% to operations/treasury. Open decision: whether 40% means 40% of every swap fee (what the simulations assume) or 40% of Quasaria's own cut after liquidity providers are paid. If it's the protocol cut, every rate here is lower.</p></section>
 
@@ -33,7 +33,7 @@
 <div class="card"><h3>30-day overflow rule</h3><p>Reserve above 30 days of payouts flows to <b>insurance</b> (until it holds 5% of the Blend deployment), then to <b>buyback/treasury</b>.</p></div>
 </div></section>
 
-<section id="peg"><h2>Peg monitor</h2><p class="sub">If QFX drifts more than 1% from XLM, new stakes and tier upgrades pause automatically. Claims and exits keep working.</p>
+<section id="pegmon"><h2>Peg monitor</h2><p class="sub">If QFX drifts more than 1% from XLM, new stakes and tier upgrades pause automatically. Claims and exits keep working.</p>
 <div class="card"><label>QFX price in XLM <output id="pegOut"></output><input type="range" id="peg" min="0.97" max="1.03" step="0.001" value="1"></label><p id="pegState" class="big"></p></div></section>
 
 <section id="unbond"><h2>Unbonding rules</h2>
