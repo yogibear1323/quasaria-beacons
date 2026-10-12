@@ -1,0 +1,4 @@
+contracts/target/
+contracts/tests/test_snapshots/
+.env
+*.secret

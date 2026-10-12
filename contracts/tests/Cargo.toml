@@ -1,0 +1,20 @@
+[package]
+name = "beacons-tests"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+publish.workspace = true
+
+[lib]
+doctest = false
+
+[dependencies]
+soroban-sdk = { workspace = true, features = ["testutils"] }
+quasaria-gov = { workspace = true }
+beacons-vault = { path = "../vault" }
+beacons-fee-router = { path = "../fee-router" }
+beacons-reward-reserve = { path = "../reward-reserve" }
+beacons-blend-adapter = { path = "../blend-adapter" }
+beacons-insurance-fund = { path = "../insurance-fund" }
+beacons-peg-monitor = { path = "../peg-monitor" }

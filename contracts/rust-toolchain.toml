@@ -1,0 +1,9 @@
+# Pinned so wasm builds are reproducible: the Rust version is embedded in every
+# contract's `contractmetav0` (rsver) and so changes the wasm hash that the
+# audit / mainnet allowlist pins. soroban-sdk 28 needs rustc >= 1.91.
+# Bump deliberately (and re-record wasm hashes) rather than following `stable`.
+[toolchain]
+channel = "1.99.0"
+targets = ["wasm32v1-none"]
+components = ["clippy", "rustfmt"]
+profile = "minimal"

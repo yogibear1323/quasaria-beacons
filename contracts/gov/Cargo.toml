@@ -1,0 +1,18 @@
+[package]
+name = "quasaria-gov"
+description = "Quasaria shared governance helpers: two-step admin, guardian pause, timelock, upgrade, TTL, checked math"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+publish.workspace = true
+
+[lib]
+crate-type = ["rlib"]
+doctest = false
+
+[dependencies]
+soroban-sdk = { workspace = true }
+
+[dev-dependencies]
+soroban-sdk = { workspace = true, features = ["testutils"] }
