@@ -7,3 +7,12 @@ guardian peg.trip (manual pause test) | f4399b4e3a2ccab993f61dcd40880dde64c09c48
 EXPECTED FAIL: stake while peg tripped | FAILED | ❌ error: transaction simulation failed: HostError: Error(Contract, #7)    0: [Diagnostic Event] contract:CBLWC5QBEHSC3MVFFZ5PK6LANOQ5ZQIBHB23LVVQGPYA54D4LVIK4CRF, topics:[error, Error(Contract, #7)], data:"escalating error to VM trap from failed host function call: fail_with_error" 
 admin peg.resume (backing + price in band) | 666ababac4a6ebd959713c9ad742353c039baef9cef480901be94002c9504074 | 🔗 https://stellar.expert/explorer/testnet/tx/666ababac4a6ebd959713c9ad742353c039baef9cef480901be94002c9504074
 staker-2 vault.unbond | 46791628ff191b4280fb91276d43df4d646e5081e335aad746bccfac8e0ff94b | {"act_cycle":1,"activated":true,"amount":"1000000000","claimable":"0","debt":"0","lock_days":0,"lock_until":1791815922,"ready_at":1791816362,"status":"Unbonding","tier":1,"weight":"1000000000"}
+staker-1 vault.claim (XLM reward) | c7f675bb06d29d9eaa603d379cbcf713a5208a7bbd43d9c41731915c81312b88 | "24733"
+keeper vault.process_exits (staker-2 FIFO exit, 2% cap partial fill) | 8267c56a79f4b8111a0fa67c943853b2d53b847d1cef91ff57ba42f6c0d4915b |
+keeper vault.process_exits (staker-2 FIFO exit, 2% cap partial fill) | 65da9944de77ada5d16d703ec07cbe6480552a6e95d3b6631795008a67d64b08 |
+keeper reserve.run_cycle #1 | cc3153607737a001a3218b6603a0d0c58a1c522f3b932087528286750a597a33 |
+keeper reserve.run_cycle #2 | 4961881fa4da744e515444517813e60ac6667603ae55367884666bc5ef13a364 |
+admin propose_action SetCycle(14400,false) prod timing | 0aa1c1639f7c1b08e35536ba8dc6b0e81a21c7a39cc3b62a5afcf5291c03770b | 1791816822
+admin propose_action SetUnbond(604800,false) prod timing | eb46815c0f2c06179f392d3b0dc74b4379e563fbf728394de452313933f97165 | 1791816827
+admin execute_action SetCycle(14400,false) -> 4h production cycles | 03dd45c7d9fc9a73d75b3423247557b6290bb606f42530c49260c9ba1c5d13f0 | 📅 CDT32VUZJ6HSNBKIL5W756G27SXUOMLQTU63Y67DER55HF7VHDDTYV7E - Success - Event: Executed (tl_executed), op: "53ae2cef000f33cd3c59e992f6d162831a9eae3b1fedd0dd69ea25558ec00af0", action: ["SetCycle",14400,false]
+admin execute_action SetUnbond(604800,false) -> 7-day unbonding | d983f9e4a710602dde3aeaedcf89580b91411d3d27b72d0e958ea15692b0f8e2 | 📅 CBLWC5QBEHSC3MVFFZ5PK6LANOQ5ZQIBHB23LVVQGPYA54D4LVIK4CRF - Success - Event: Executed (tl_executed), op: "e90e0fa72dd77177b1f6675dbb10b957e2b075a87c4f2090f54941c3722f2570", action: ["SetUnbond",604800,false]
