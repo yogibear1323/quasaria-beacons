@@ -52,4 +52,5 @@ Six Soroban contracts: **staking vault**, **fee router**, **reward reserve**, **
 - `docs/concept.md|pdf` – write-up (stress test, simulations, final settings).
 - `docs/deployment-scope.md|pdf` – on-chain deployment scope.
 - `docs/backoffice-theme.md` – Back Office theme notes.
+- `docs/dex-integration-plan.md` – how Beacons plugs into the Quasaria DEX (stays / changes / new, fee router hook, testnet build order).
 - `docs/sim/sim.py` + CSVs – simulations (`python3 sim.py`). `sim.js` is a port of the reserve model; it reproduces `reserve_summary.csv` exactly.
