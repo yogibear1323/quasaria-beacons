@@ -31,6 +31,7 @@ while true; do
   if [ "${ql:-0}" != 0 ]; then
     inv $VAULT -- process_exits | grep -E "tx/|^\"?[0-9]" | tr '\n' ' ' | sed "s/^/[$(date +%T)] vault.process_exits /"; echo
   fi
+  date +%s > "${HEARTBEAT:-/dev/null}"
   [ "${ONCE:-0}" = 1 ] && break
   sleep $POLL
 done

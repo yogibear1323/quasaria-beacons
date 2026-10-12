@@ -16,3 +16,14 @@ admin propose_action SetCycle(14400,false) prod timing | 0aa1c1639f7c1b08e35536b
 admin propose_action SetUnbond(604800,false) prod timing | eb46815c0f2c06179f392d3b0dc74b4379e563fbf728394de452313933f97165 | 1791816827
 admin execute_action SetCycle(14400,false) -> 4h production cycles | 03dd45c7d9fc9a73d75b3423247557b6290bb606f42530c49260c9ba1c5d13f0 | 📅 CDT32VUZJ6HSNBKIL5W756G27SXUOMLQTU63Y67DER55HF7VHDDTYV7E - Success - Event: Executed (tl_executed), op: "53ae2cef000f33cd3c59e992f6d162831a9eae3b1fedd0dd69ea25558ec00af0", action: ["SetCycle",14400,false]
 admin execute_action SetUnbond(604800,false) -> 7-day unbonding | d983f9e4a710602dde3aeaedcf89580b91411d3d27b72d0e958ea15692b0f8e2 | 📅 CBLWC5QBEHSC3MVFFZ5PK6LANOQ5ZQIBHB23LVVQGPYA54D4LVIK4CRF - Success - Event: Executed (tl_executed), op: "e90e0fa72dd77177b1f6675dbb10b957e2b075a87c4f2090f54941c3722f2570", action: ["SetUnbond",604800,false]
+admin propose_action Upgrade(vault add_stake) f1d96163f51e246a124a1d33bc9e18880bb621d15a333e115fff193a51dd8222 | 0aebcde5deed4cb84ab32e27e77b85b7778189495e6953b81da68f081c7098fd | 1791817477
+e2e-wallet QFX.deposit 3000 XLM | e91cc173a125dc014a8e5579095a9b0e6d449523fe9f127e54b9117b84fca1d2 | "30000000000"
+admin execute_action Upgrade(vault add_stake) f1d96163f51e246a124a1d33bc9e18880bb621d15a333e115fff193a51dd8222 | 255dcc8591f95cb3868b730a34f8df75411dad0434b5cabb14b25872bf6ef8c7 | 📅 CBLWC5QBEHSC3MVFFZ5PK6LANOQ5ZQIBHB23LVVQGPYA54D4LVIK4CRF - Success - Event: Upgraded (upgraded), wasm_hash: "f1d96163f51e246a124a1d33bc9e18880bb621d15a333e115fff193a51dd8222"
+staker-1 QFX.deposit 1600 XLM | 2676281e430c5538295546b3c4a7f45019ccc565a0cc7426ea866e887a340595 | "16000000000"
+guardian peg.trip (UI pause check) | c1ec3e73823c472d754ff50750df3638b861bfcb6bf61176f5c8948a0f942b9a | 🔗 https://stellar.expert/explorer/testnet/tx/c1ec3e73823c472d754ff50750df3638b861bfcb6bf61176f5c8948a0f942b9a
+admin peg.resume after UI pause check | 26e4c9d9bfd14f1858cfaa4e9c22432d36f68b41e86e963a5b1488538c7326d0 | 🔗 https://stellar.expert/explorer/testnet/tx/26e4c9d9bfd14f1858cfaa4e9c22432d36f68b41e86e963a5b1488538c7326d0
+e2e-wallet UI stake 1000 QFX no lock | 73beb081595233a3ac9e1eb6b232e78fa7feca4aec67ced135a7ff54959fbf2c |
+e2e-wallet UI add_stake 1500 (warm-up merge) | 126cd16edbfe1fd7692eb389fdeb5d0b5eb1fb39dc631aeeb8882682b37f9ac5 |
+e2e-wallet UI unbond | f22ca3159a81d1d16598c4fbd99b86c926d2b07974a56e6420fa84f900f6f7e9 |
+staker-1 UI claim XLM | 82b4983ca642107fbbc2ff4ac09e150019ef54d51a01ecf2db903b21cd37282d |
+staker-1 UI add_stake 1500 (pending top-up) | 4cc1716ac87a14e59064b7f8da949260b60e0b414fc8ba28e1fd1fb92e0118b1 |

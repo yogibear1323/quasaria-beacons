@@ -40,7 +40,7 @@ pub trait Adapter { fn supply(env: Env, amount: i128); fn withdraw(env: Env, amo
 #[contracterror]
 #[derive(Copy, Clone, Debug, Eq, PartialEq, PartialOrd, Ord)]
 #[repr(u32)]
-pub enum VaultError { BelowMinimum = 1, BadLock = 2, HasPosition = 3, NoPosition = 4, Locked = 5, NotActive = 6, PegTripped = 7, AlreadyWired = 8, NotWired = 9, BadTiming = 10 }
+pub enum VaultError { BelowMinimum = 1, BadLock = 2, HasPosition = 3, NoPosition = 4, Locked = 5, NotActive = 6, PegTripped = 7, AlreadyWired = 8, NotWired = 9, BadTiming = 10, LockMismatch = 11 }
 
 #[contracttype]
 #[derive(Clone, Debug, Eq, PartialEq)]
@@ -73,7 +73,7 @@ pub struct VaultState {
 #[contracttype]
 #[derive(Clone)]
 enum Key { Qfx, Xlm, Peg, Adapter, Reserve, Unbond, Demo, Cycle, Acc, TotalWeight, Principal, Stakers, Owed, Paid,
-    ExitBase, Exited, QHead, QTail, QAmount, AccAt(u32), PendingW(u32), Pos(Address), Queue(u32) }
+    ExitBase, Exited, QHead, QTail, QAmount, AccAt(u32), PendingW(u32), Pos(Address), Queue(u32), PendAdd(Address) }
 
 #[contracttype]
 #[derive(Clone, Debug, Eq, PartialEq)]
@@ -113,11 +113,26 @@ pub fn boost_bps(lock_days: u32) -> Option<i128> { match lock_days { 0 => Some(1
 fn acc_at(e: &Env, c: u32) -> i128 { p_get(e, &Key::AccAt(c)).unwrap_or(0) }
 
 /// Bring a position's rewards up to date.
-fn sync(e: &Env, p: &mut Position) {
+fn sync(e: &Env, user: &Address, p: &mut Position) { sync_inner(e, user, p, true) }
+
+/// `persist = false` for views: fold the top-up into the returned copy only.
+fn sync_inner(e: &Env, user: &Address, p: &mut Position, persist: bool) {
     if p.status != Status::Active { return; }
     let cycle: u32 = i(e, &Key::Cycle);
     if cycle < p.act_cycle { return; }
     if !p.activated { p.debt = p.weight * acc_at(e, p.act_cycle) / SCALE; p.activated = true; }
+    // A top-up warms up separately: fold it in once its activation cycle has started.
+    let pk = Key::PendAdd(user.clone());
+    if let Some((w, act)) = p_get::<(i128, u32)>(e, &pk) {
+        if cycle >= act {
+            let a = acc_at(e, act);
+            let upto = p.weight * a / SCALE;
+            if upto > p.debt { p.claimable += upto - p.debt; }
+            p.weight += w;
+            p.debt = p.weight * a / SCALE;
+            if persist { e.storage().persistent().remove(&pk); }
+        }
+    }
     let acc: i128 = i(e, &Key::Acc);
     let accrued = p.weight * acc / SCALE;
     if accrued > p.debt { p.claimable += accrued - p.debt; p.debt = accrued; }
@@ -178,6 +193,52 @@ impl StakingVault {
         pos
     }
 
+    /// Top up an active position (same lock choice; the lock end is extended
+    /// to now + lock). The added QFX warms up for one epoch like a new stake;
+    /// the existing stake keeps earning meanwhile. Peg-gated like `stake`.
+    pub fn add_stake(e: Env, user: Address, amount: i128) -> Position {
+        user.require_auth();
+        gov::when_not_paused(&e);
+        if !PegClient::new(&e, &i(&e, &Key::Peg)).healthy() { panic_with_error!(&e, VaultError::PegTripped); }
+        if amount <= 0 { panic_with_error!(&e, VaultError::BelowMinimum); }
+        let pk = Key::Pos(user.clone());
+        let mut p: Position = p_get(&e, &pk).unwrap_or_else(|| panic_with_error!(&e, VaultError::NoPosition));
+        if p.status != Status::Active { panic_with_error!(&e, VaultError::NotActive); }
+        sync(&e, &user, &mut p);
+        let me = e.current_contract_address();
+        let qfx: Address = i(&e, &Key::Qfx);
+        qfx_tok(&e).transfer(&user, &me, &amount);
+        QfxClient::new(&e, &qfx).redeem(&me, &amount);
+        let lend = amount * LEND_BPS / 10_000;
+        if lend > 0 { let ad: Address = i(&e, &Key::Adapter); xlm(&e).transfer(&me, &ad, &lend); AdapterClient::new(&e, &ad).supply(&lend); }
+        let w = amount * boost_bps(p.lock_days).unwrap() / 10_000;
+        let cycle: u32 = i(&e, &Key::Cycle);
+        let act = cycle + 1;
+        let k = Key::PendingW(act); let pw: i128 = p_get(&e, &k).unwrap_or(0); p_set(&e, &k, &(pw + w));
+        if !p.activated && p.act_cycle == act {
+            p.weight += w; // still warming up: merge directly
+        } else {
+            let pak = Key::PendAdd(user.clone());
+            let (ow, _): (i128, u32) = p_get(&e, &pak).unwrap_or((0, act));
+            p_set(&e, &pak, &(ow + w, act));
+        }
+        p.amount += amount;
+        p.tier = tier_of(p.amount);
+        let until = e.ledger().timestamp() + p.lock_days as u64 * 86_400;
+        if until > p.lock_until { p.lock_until = until; }
+        add(&e, &Key::Principal, amount);
+        p_set(&e, &pk, &p);
+        gov::bump_instance(&e);
+        Staked { user, amount, lock_days: p.lock_days, tier: p.tier, act_cycle: act }.publish(&e);
+        p
+    }
+
+    /// Weight of a pending top-up and the cycle it starts earning (0, 0 if none).
+    pub fn pending_add(e: Env, user: Address) -> (i128, u32) {
+        let v: (i128, u32) = p_get(&e, &Key::PendAdd(user)).unwrap_or((0, 0));
+        if v.1 != 0 && i::<u32>(&e, &Key::Cycle) >= v.1 { (0, 0) } else { v }
+    }
+
     /// Reward reserve only: `amount` XLM was just sent here for the cycle that
     /// is ending. Distributes it, then opens the next cycle.
     pub fn notify_reward(e: Env, amount: i128) -> u32 {
@@ -209,7 +270,7 @@ impl StakingVault {
         user.require_auth();
         let pk = Key::Pos(user.clone());
         let mut p: Position = p_get(&e, &pk).unwrap_or_else(|| panic_with_error!(&e, VaultError::NoPosition));
-        sync(&e, &mut p);
+        sync(&e, &user, &mut p);
         let amt = p.claimable;
         if amt > 0 {
             p.claimable = 0;
@@ -227,7 +288,12 @@ impl StakingVault {
         let mut p: Position = p_get(&e, &pk).unwrap_or_else(|| panic_with_error!(&e, VaultError::NoPosition));
         if p.status != Status::Active { panic_with_error!(&e, VaultError::NotActive); }
         if e.ledger().timestamp() < p.lock_until { panic_with_error!(&e, VaultError::Locked); }
-        sync(&e, &mut p);
+        sync(&e, &user, &mut p);
+        let pak = Key::PendAdd(user.clone());
+        if let Some((w, act)) = p_get::<(i128, u32)>(&e, &pak) {
+            let k = Key::PendingW(act); let pw: i128 = p_get(&e, &k).unwrap_or(0); p_set(&e, &k, &(pw - w));
+            e.storage().persistent().remove(&pak);
+        }
         if p.activated { add(&e, &Key::TotalWeight, -p.weight); }
         else { let k = Key::PendingW(p.act_cycle); let pw: i128 = p_get(&e, &k).unwrap_or(0); p_set(&e, &k, &(pw - p.weight)); }
         p.status = Status::Unbonding;
@@ -285,8 +351,8 @@ impl StakingVault {
 
     // ----- views
     pub fn position(e: Env, user: Address) -> Option<Position> {
-        let mut p: Position = p_get(&e, &Key::Pos(user))?;
-        sync(&e, &mut p);
+        let mut p: Position = p_get(&e, &Key::Pos(user.clone()))?;
+        sync_inner(&e, &user, &mut p, false);
         Some(p)
     }
     pub fn total_weight(e: Env) -> i128 { i(&e, &Key::TotalWeight) }

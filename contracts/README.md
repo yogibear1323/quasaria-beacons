@@ -4,7 +4,7 @@ Six Soroban contracts (soroban-sdk 28), plus the shared `quasaria-gov` helper ve
 
 | Contract | What it does |
 |---|---|
-| `vault` | Stake QFX (tiers Spark 100 → Singularity 250,000 QFX are labels; flat per-QFX share; 30d 1.1x / 90d 1.25x boosts; no wallet cap). Redeems QFX→XLM 1:1 via the existing QFX `redeem`, lends 40% through the Blend adapter, keeps 60% cash. One-epoch warm-up. Unbond (7 days prod) → FIFO queue, max 2% of principal per cycle, re-mints QFX via QFX `deposit` on exit. New stakes/upgrades blocked while the peg monitor is tripped. One position per address. |
+| `vault` | Stake QFX (tiers Spark 100 → Singularity 250,000 QFX are labels; flat per-QFX share; 30d 1.1x / 90d 1.25x boosts; no wallet cap). Redeems QFX→XLM 1:1 via the existing QFX `redeem`, lends 40% through the Blend adapter, keeps 60% cash. One-epoch warm-up. Unbond (7 days prod) → FIFO queue, max 2% of principal per cycle, re-mints QFX via QFX `deposit` on exit. New stakes/upgrades blocked while the peg monitor is tripped. One position per address; `add_stake` tops it up (the top-up warms up one epoch; the existing stake keeps earning). |
 | `fee-router` | Splits XLM fees 40% reward reserve / 10% insurance / 50% ops; tags each deposit with a source symbol. |
 | `reward-reserve` | Each cycle (4 h prod) pays min(balance/42, 25%-APR cap) in XLM to the vault; reserve above 30 days of capped payouts overflows to insurance (to target) then treasury. |
 | `blend-adapter` | Option B: supplies the vault's lend slice to the Blend testnet XLM pool (request type 0), withdraws (type 1) on exits. `cash_only` mode holds XLM idle. |

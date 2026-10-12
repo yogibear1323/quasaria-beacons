@@ -45,5 +45,14 @@
       "demoTiming": false,
       "via": "timelocked SetCycle/SetUnbond"
     }
+  ],
+  "upgrades": [
+    {
+      "contract": "vault",
+      "wasmHash": "f1d96163f51e246a124a1d33bc9e18880bb621d15a333e115fff193a51dd8222",
+      "what": "add_stake + pending_add",
+      "proposeTx": "0aebcde5deed4cb84ab32e27e77b85b7778189495e6953b81da68f081c7098fd",
+      "executeTx": "255dcc8591f95cb3868b730a34f8df75411dad0434b5cabb14b25872bf6ef8c7"
+    }
   ]
 }

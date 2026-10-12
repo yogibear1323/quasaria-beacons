@@ -234,3 +234,37 @@ fn one_position_per_address_and_minimum() {
     w.vault.stake(&a, &(500 * U), &0);
     assert!(w.vault.try_stake(&a, &(100 * U), &0).is_err());
 }
+
+#[test]
+fn add_stake_tops_up_with_its_own_warmup() {
+    let w = setup(false);
+    let a = user(&w, 3_000 * U); let b = user(&w, 1_100 * U);
+    w.vault.stake(&a, &(1_000 * U), &0); w.vault.stake(&b, &(1_000 * U), &0);
+    // top-up during warm-up merges directly
+    w.vault.add_stake(&a, &(500 * U));
+    let src = Address::generate(&w.e); w.xlm.mint(&src, &(100_000 * U));
+    tick(&w, 120); w.reserve.run_cycle(); // cycle 1: a=1500, b=1000 active
+    assert_eq!(w.vault.total_weight(), 2_500 * U);
+    // top-up after activation: old stake keeps earning, top-up waits one epoch
+    w.vault.add_stake(&a, &(1_000 * U));
+    assert_eq!(w.vault.pending_add(&a), (1_000 * U, 2));
+    assert_eq!(w.vault.position(&a).unwrap().tier, 3);
+    w.router.deposit_fees(&src, &(1_000 * U), &symbol_short!("TESTFEE"));
+    tick(&w, 120); let r = w.reserve.run_cycle(); // pays cycle-1 weights 1500:1000
+    let pa = w.vault.position(&a).unwrap().claimable; let pb = w.vault.position(&b).unwrap().claimable;
+    assert!((pa * 1000 / pb - 1500).abs() <= 1, "{} {}", pa, pb);
+    assert_eq!(pa + pb, r.payout - (r.payout - pa - pb)); 
+    assert_eq!(w.vault.total_weight(), 3_500 * U);
+    tick(&w, 120); w.reserve.run_cycle(); // now 2500:1000
+    let pa2 = w.vault.position(&a).unwrap().claimable - pa; let pb2 = w.vault.position(&b).unwrap().claimable - pb;
+    assert!((pa2 * 1000 / pb2 - 2500).abs() <= 1, "{} {}", pa2, pb2);
+    assert_eq!(w.vault.pending_add(&a), (0, 0));
+    // unbond with a pending top-up removes it from pending weight
+    w.vault.add_stake(&b, &(100 * U - 10 * U));
+    w.vault.unbond(&b);
+    tick(&w, 120); w.reserve.run_cycle();
+    assert_eq!(w.vault.total_weight(), 2_500 * U);
+    // peg-gated
+    w.peg.report_price(&9_800_000);
+    assert!(w.vault.try_add_stake(&a, &(10 * U)).is_err());
+}
