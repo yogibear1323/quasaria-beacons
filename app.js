@@ -21,9 +21,9 @@ function sim(){
  $("oFees").textContent=fmt(fees);$("oTvl").textContent=fmt(tvl);$("oRate").textContent=rate*100<1?(rate*100).toFixed(1)+"%":(rate*100).toFixed(1)+"%";$("oAlloc").textContent=fmt(alloc*100)+"%";
  const res=BeaconsSim.run({tvl,alloc,rate,fees,stake,lock,ruleDays:30,days:90,drought:$("drought").checked?[30,60]:null,blendLoss:$("loss").checked?{day:45,pct:.2}:null});
  let apr=res.userAprPct; const lossAmt=res.lossInfo?res.lossInfo.haircutPct*365/90:0; // haircut annualized over the 90-day window
- const net=apr-(res.lossInfo?res.lossInfo.haircutPct*365/90:0);
+ const net=apr;
  $("rApr").textContent=fmt(net,2)+"%";
- $("rAprNote").textContent=res.lossInfo?`Rewards ${fmt(apr,2)}% minus Blend-loss haircut. Variable, illustrative.`:"Variable, illustrative, not guaranteed.";
+ $("rAprNote").textContent=res.lossInfo?`Plus a one-off ${fmt(res.lossInfo.haircutPct,2)}% haircut on your stake from the Blend loss. Variable, illustrative.`:"Variable, illustrative, not guaranteed.";
  $("rCycle").textContent=fmt(res.userPerEpochSteady,3)+" XLM";
  $("rTier").textContent=`Tier: ${tierOf(stake)} · steady state at today's inputs`;
  const d=net-12;$("rVs").innerHTML=`<span class="${d>=0?"ok":"bad"}">${d>=0?"+":""}${fmt(d,2)} pts</span>`;
